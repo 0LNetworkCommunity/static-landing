@@ -17,7 +17,7 @@
       background-color: #000000;
     }
 
-    #content {
+    #container {
       padding-top: 100px;
       /* border: 1px solid #000; */
       background-color: #000000;
@@ -27,6 +27,10 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
+    #hero {
+      font-size:2vw
+    }
+
     @media (max-width: 600px) {
       #content {
         font-size: 12px;
@@ -34,10 +38,6 @@
       }
     }
   </style>
-</head>
-
-<body>
-  <div id="content">Loading...</div>
   <script>
     fetch('words.txt')
       .then(response => response.text())
@@ -47,7 +47,23 @@
       .catch(error => {
         document.getElementById('content').textContent = 'All your base are belong to us.';
       });
+
+    fetch('hero.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('hero').textContent = data;
+      })
+      .catch(error => {
+        document.getElementById('hero').textContent = '';
+      });
   </script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="hero">...</div>
+    <div id="content">...</div>
+  </div>
 </body>
 
 </html>
