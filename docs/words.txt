@@ -1,52 +1,35 @@
-    .::::      .:::::::   .:::::::: .:::     .::
-  .::    .::   .::    .:: .::       .: .::   .::
-.::        .:: .::    .:: .::       .:: .::  .::
-.::        .:: .:::::::   .::::::   .::  .:: .::
-.::        .:: .::        .::       .::   .: .::
-  .::     .::  .::        .::       .::    .: ::
-    .::::      .::        .:::::::: .::      .::
-
-.::       .:: .:: .::    .:::::::           .:       
-.::       .:: .:    .::  .::    .::        .: ::     
-.::       .:: .:     .:: .::    .::       .:  .::    
-.::       .:: .::: .:    .: .::          .::   .::   
-.::       .:: .:     .:: .::  .::       .:::::: .::  
-.::       .:: .:      .: .::    .::    .::       .:: 
-.:::::::: .:: .:::: .::  .::      .:: .::         .::
-
-
-GOOD INDEPENDENT CAPITAL
+INDEPENDENT CAPITAL
 ------------------------------------------------------
-# Yes, We Took It
+1. Yes, We Took It
 We hard-forked Facebook¹ out of Libra.
 
-# To Fulfill the Promise of Good Capital
+2. To Fulfill the Promise of Good Capital
 Crypto promised us independent capital which makes the future arrive faster.
 That capital now belongs to banks, ETFs, and hedge funds.
 The tech of blockchains is soon to be old news.
 
-# By Being Fiercely Independent
+3. By Being Fiercely Independent
 We can do the right things because we don't owe anything to anyone.
 - Government: every coin was mined and no money ever raised.
 - VCs: LOL you're all so silly.
 - Foundation: no need for theater.
 - Crypto bros: we don't play your toxic games.
 
-# Using Modern Tools
+4. Using Modern Tools
 Programmable capital needs a cutting edge chain.
 We've been running experimental Diem and Move networks since 2019.
 Our blockchain has every smart contract you need to use LIBRA, minus the garbage.
 
-# To Produce the Best Asset
-LIBRA, not blockchain.
-Technology decays but content is forever.
-The last coin was mined in November 2023.
-Now it powers new games for society.
+5. To Produce the Best Open Asset
+Singularly focused on what an open, perpetual, and meaningful asset means.
+Technology decays, but content is forever.
+Think LIBRA, not blockchain.
 
-# With Plans Measured in Centuries
+
+6. With Plans Measured in Centuries
 We built tools for people to save and plan for the future.
-They did, and made evergreen endowments to create interventions in society.
-Now, we will always be a part of the future, whatever it may bring.
+Communities with evergreen endowments to create interventions in society.
+We plan always be a part of the future, whatever it may bring.
 
 ------------------------------------------------------
 
