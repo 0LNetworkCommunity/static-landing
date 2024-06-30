@@ -1,5 +1,3 @@
-INDEPENDENT CAPITAL
-------------------------------------------------------
 1. Yes, We Took It
 We hard-forked Facebook¹ out of Libra.
 
@@ -15,7 +13,7 @@ We can do the right choices because we don't owe anything to anyone.
 - Foundation: no need for theater.
 - Crypto: we don't play your toxic games.
 
-5. In Order to Produce the Best Open Asset
+5. To Produce the Best Possible Open Asset
 Singularly focused on what an open, perpetual, and meaningful asset means.
 Technology decays, but content is forever.
 Think LIBRA, not blockchain.
@@ -23,27 +21,19 @@ Think LIBRA, not blockchain.
 4. Using Modern Tools
 We've been running experimental Diem and Move networks since 2019.
 Our blockchain has every smart contract you need to use LIBRA, minus the garbage.
-With great tools for people to save and plan for the future.
+Committed to whatever technology helps our people to save and plan for the future.
 
 6. With Plans Measured in Centuries
 We plan always be a part of the future, whatever it may bring.
 Communities with evergreen endowments to create interventions in society.
 
-------------------------------------------------------
-
-
-# FAQ
-https://openlibra.io/faq.html
-# Wallet
-https://github.com/0LNetworkCommunity/carpe
-# Explorer
-https://0l.fyi/
-# Docs
-https://0lnetwork.dev/
-# Archive
-https://0l.network/blog/
-# Source
-https://github.com/0LNetworkCommunity/libra-framework
+---
+FAQ: https://openlibra.io/faq.html
+Wallet: https://github.com/0LNetworkCommunity/carpe
+Explorer: https://0l.fyi/
+Docs: https://0lnetwork.dev/
+Papers: https://0l.network/blog/
+Source: https://github.com/0LNetworkCommunity/libra-framework
 
 
 
