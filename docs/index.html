@@ -4,41 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: "Courier New", Courier, monospace;
-      color: #ffffff;
-      /* margin-top: 100; */
-      /* padding-top: 100; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #000000;
-    }
-
-    #container {
-      padding-top: 100px;
-      /* border: 1px solid #000; */
-      background-color: #000000;
-      white-space: pre-wrap;
-      max-width: 100%;
-      overflow-x: auto;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    #hero {
-      /* padding: 10px; */
-      font-size:2vw;
-    }
-
-    @media (max-width: 600px) {
-      #content {
-        font-size: 12px;
-        /* padding: 10px; */
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="layout.css">
   <script>
     fetch('words.txt')
       .then(response => response.text())
