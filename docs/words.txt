@@ -13,12 +13,12 @@ We can do the right choices because we don't owe anything to anyone.
 - Foundation: no need for theater.
 - Crypto: we don't play your toxic games.
 
-5. To Produce the Best Possible Open Asset
+4. To Produce the Best Possible Open Asset
 Singularly focused on what an open, perpetual, and meaningful asset means.
 Technology decays, but content is forever.
 Think LIBRA, not blockchain.
 
-4. Using Modern Tools
+5. Using Modern Tools
 We've been running experimental Diem and Move networks since 2019.
 Our blockchain has every smart contract you need to use LIBRA, minus the garbage.
 Committed to whatever technology helps our people to save and plan for the future.
