@@ -1,17 +1,17 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  color: #ffffff;
+  color: black;
   white-space: pre-wrap;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #000000;
+  background-color: lightgray;
 }
 
 #container {
   padding-top: 10%;
-  background-color: #000000;
+  background-color: lightgray;
   max-width: 100%;
 }
 
