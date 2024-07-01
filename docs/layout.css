@@ -11,12 +11,11 @@ body {
 
 #container {
   padding-top: 10%;
-  background-color: black;
   max-width: 100%;
 }
 
 #hero {
-  font-size: 125%;
+  font-size: 1.25vw;
 }
 
 @media only screen and (max-width: 600px) {
