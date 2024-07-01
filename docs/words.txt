@@ -1,21 +1,21 @@
 1. Yes, We Took It
 
-We hard-forked Facebook¹ out of Libra.
+- We hard-forked Facebook¹ out of Libra.
 
 2. To Fulfill the Promise of Good Capital
 
-Crypto promised us spiritually elevated capital which could make the future
+- Crypto promised us spiritually elevated capital which could make the future
 arrive faster.
 - Said capital now belongs to banks, ETFs, and hedge funds.
 - And tech of blockchains will soon be in the rear-view mirror.
 
-4. Producing the Best Open Asset
+3. Producing the Best Open Asset
 
 - Singularly focused on an open, perpetual, and meaningful digital property.
 - Without financial nihilism, pyramid schemes, obfuscation and confusion.
 - Just people planning and saving for interventions in society.
 
-3. By Being Fiercely Independent
+4. By Being Fiercely Independent
 
 We make the right choices because we don't owe anything to anyone.
 - Government proof: every coin was mined and no money ever raised.
@@ -39,7 +39,10 @@ future.
 
 7. To Become a Force of Society
 
---- Links
+
+
+
+--------------------------
 FAQ: https://openlibra.io/faq.html
 Wallet: https://github.com/0LNetworkCommunity/carpe
 Explorer: https://0l.fyi/
