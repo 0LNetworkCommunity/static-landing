@@ -1,3 +1,23 @@
+    .::::      .:::::::   .:::::::: .:::     .::
+  .::    .::   .::    .:: .::       .: .::   .::
+.::        .:: .::    .:: .::       .:: .::  .::
+.::        .:: .:::::::   .::::::   .::  .:: .::
+.::        .:: .::        .::       .::   .: .::
+  .::     .::  .::        .::       .::    .: ::
+    .::::      .::        .:::::::: .::      .::
+
+.::       .:: .:: .::    .:::::::           .:
+.::       .:: .:    .::  .::    .::        .: ::
+.::       .:: .:     .:: .::    .::       .:  .::
+.::       .:: .::: .:    .: .::          .::   .::
+.::       .:: .:     .:: .::  .::       .:::::: .::
+.::       .:: .:      .: .::    .::    .::       .::
+.:::::::: .:: .:::: .::  .::      .:: .::         .::
+
+
+INDEPENDENT CAPITAL
+------------------------------------------------------
+
 1. Yes, We Took It
 
 We hard-forked Facebook¹ out of Libra.
@@ -15,7 +35,7 @@ arrive faster.
 - Without financial nihilism, pyramid schemes, obfuscation and confusion.
 - Just people planning and saving for interventions in society.
 
-3. Being Fiercely Independent
+3. By Being Fiercely Independent
 
 We make the right choices because we don't owe anything to anyone.
 - Government proof: every coin was mined and no money ever raised.
@@ -23,7 +43,7 @@ We make the right choices because we don't owe anything to anyone.
 - So long Crypto industry: there's far less than meets the eye.
 - No thanks VCs: this is the thing that one day replaces you.
 
-5. Using Modern Tools
+5. And Using Modern Tools
 
 - We've been running experimental Diem and Move networks since 2019.
 - Our blockchain has every smart contract you need to use LIBRA, minus the garbage.
