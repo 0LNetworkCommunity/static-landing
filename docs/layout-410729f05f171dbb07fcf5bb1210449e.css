@@ -1,0 +1,26 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: lightgray;
+  white-space: pre-wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#container {
+  padding-top: 10%;
+  max-width: 100%;
+}
+
+#hero {
+  font-size: 1.25vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #hero {
+    font-size: 2.8vw;
+    font-weight: bold;
+  }
+}
