@@ -34,8 +34,8 @@ We make the right choices because we don't owe anything to anyone.
 Having our own Layer-1 blockchain keeps us free.
 We've been running experimental Diem and Move networks since 2019.
 Focused on LIBRA, not Blockchain
-The chain intends to have all the Smart Contracts you need to use, save, plan
-with LIBRA, but none of the garbage to distract us.
+We intend for the chain to have all the Smart Contracts you need to use, save,
+plan with LIBRA, but none of the garbage to distract us.
 
 6. Has Plans Measured in Centuries,
 ------------------------------------
