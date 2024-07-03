@@ -15,21 +15,21 @@ And tech of blockchains will soon be in the rear-view mirror.
 ------------------------------------
 
 Singularly focused on an accessible, perpetual, and meaningful digital property.
-95% of The network capital has be saved, pledged, or donated to the future.
+95% of The network capital has been saved, pledged, or donated to the future.
 Prosperity comes from people saving and planning for interventions in society.
 Without financial nihilism, pyramid schemes, obfuscation and confusion.
 
 
-4. Which is Fiercely Independent
+4. Which is Fiercely Independent,
 ------------------------------------
 
 We make the right choices because we don't owe anything to anyone.
 - Government proof: every coin was mined and no money ever raised.
 - No Labs or Foundation: yes to moral authority and meritocracy.
-- So long, Crypto industry: let's play games world wants to play.
+- So long, Crypto industry: let's play games the world wants to play.
 - No thanks, VCs: We have no rush, and infinite possibilities.
 
-5. Uses Modern Tools
+5. Uses Modern Tools,
 ------------------------------------
 
 Having our own Layer-1 blockchain keeps us free.
@@ -38,20 +38,24 @@ Focused on LIBRA, not Blockchain
 The chain has all smart contract you need to use, save, plan with LIBRA, and
 none of the garbage to distract you.
 
-6. With Plans Measured in Centuries
+6. Has Plans Measured in Centuries,
 ------------------------------------
 
+We play a long game that few have patience for.
 We don't need all the answers now.
-Create the space for future generations to discover the code that unlocks the asset.
+We hold the space for future generations to discover the key which unlocks the asset.
 
 
 7. To Become a Perpetual Social Force
 ------------------------------------
 
-Wallet: https://github.com/0LNetworkCommunity/carpe
+FAQ:      https://openlibra.io/faq.html
+Wallet:   https://github.com/0LNetworkCommunity/carpe
 Explorer: https://0l.fyi/
-Docs: https://0lnetwork.dev/
-Source: https://github.com/0LNetworkCommunity/libra-framework
+Docs:     https://0lnetwork.dev/
+Papers:   https://openlibra.blog
+Code:     https://github.com/0LNetworkCommunity/libra-framework
+
 
 
 
