@@ -15,7 +15,7 @@ body {
 }
 
 #hero {
-  font-size: 1.25vw;
+  min-width: 50ch;
 }
 
 @media only screen and (max-width: 600px) {

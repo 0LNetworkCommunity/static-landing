@@ -1,48 +1,54 @@
-1. Yes, We Took It
 
-- We hard-forked Facebook¹ out of Libra.
+
+1. Yes, We Took It
+--------------------------------------------------
+
+We hard-forked Facebook¹ out of Libra.
 
 2. To Fulfill the Promise of Good Capital
+--------------------------------------------------
 
-- Crypto promised us spiritually elevated capital which could make the future
+Crypto promised us spiritually elevated capital which could make the future
 arrive faster.
-- Said capital now belongs to banks, ETFs, and hedge funds.
-- And tech of blockchains will soon be in the rear-view mirror.
+Said capital now belongs to banks, ETFs, and hedge funds.
+And tech of blockchains will soon be in the rear-view mirror.
 
-3. Producing the Best Open Asset
+3. By Producing the Best Open Asset
+--------------------------------------------------
 
-- Singularly focused on an open, perpetual, and meaningful digital property.
-- Without financial nihilism, pyramid schemes, obfuscation and confusion.
-- Just people planning and saving for interventions in society.
+Singularly focused on an accessible, perpetual, and meaningful digital property.
+95% of The network capital has be saved, pledged, or donated to the future.
+Prosperity comes from people saving and planning for interventions in society.
+Without financial nihilism, pyramid schemes, obfuscation and confusion.
 
-4. By Being Fiercely Independent
+
+4. Which is Fiercely Independent
+--------------------------------------------------
 
 We make the right choices because we don't owe anything to anyone.
 - Government proof: every coin was mined and no money ever raised.
-- Foundation free: moral authority over formal mediocracy.
-- So long, Crypto industry: there's far less than meets the eye.
-- No thanks VCs: this is the thing that one day replaces you.
+- No Labs or Foundation: yes to moral authority and meritocracy.
+- So long, Crypto industry: let's play games world wants to play.
+- No thanks, VCs: We have no rush, and infinite possibilities.
 
-5. And Using Modern Tools
+5. Uses Modern Tools
+--------------------------------------------------
 
-- We've been running experimental Diem and Move networks since 2019.
-- Our blockchain has every smart contract you need to use LIBRA, minus the garbage.
-- Committed to whatever technology helps our people to save and plan for the
-future.
-- LIBRA, not blockchain
+Having our own Layer-1 blockchain keeps us free.
+We've been running experimental Diem and Move networks since 2019.
+Focused on LIBRA, not Blockchain
+The chain has all smart contract you need to use, save, plan with LIBRA, and
+none of the garbage to distract you.
 
-6. With Plans Measured in Centuries
-
-- We plan to always be a part of the future, whatever it may bring.
-- With your LIBRA handed off to the next generation.
-- No rush, and infinite possibilities.
-
-7. To Become a Force of Society
+6. And Has Plans Measured in Centuries
+--------------------------------------------------
+We don't need all the answers now.
+Create the space for future generations to discover the code that unlocks the asset.
 
 
+7. To Become an Unstoppable Social Force
+--------------------------------------------------
 
-
---------------------------
 Wallet: https://github.com/0LNetworkCommunity/carpe
 Explorer: https://0l.fyi/
 Docs: https://0lnetwork.dev/

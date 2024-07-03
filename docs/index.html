@@ -10,6 +10,7 @@
       .then(response => response.text())
       .then(data => {
         document.getElementById('content').textContent = data;
+
       })
       .catch(error => {
         document.getElementById('content').textContent = 'All your base are belong to us.';
