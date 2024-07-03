@@ -15,10 +15,9 @@ And tech of blockchains will soon be in the rear-view mirror.
 ------------------------------------
 
 Singularly focused on an accessible, perpetual, and meaningful digital property.
-95% of The network capital has been saved, pledged, or donated to the future.
 Prosperity comes from people saving and planning for interventions in society.
 Without financial nihilism, pyramid schemes, obfuscation and confusion.
-
+100% of LIBRA has already been produced, 95% of which has been saved, pledged, or donated to the future.
 
 4. Which is Fiercely Independent,
 ------------------------------------
@@ -27,7 +26,7 @@ We make the right choices because we don't owe anything to anyone.
 - Government proof: every coin was mined and no money ever raised.
 - No Labs or Foundation: yes to moral authority and meritocracy.
 - So long, Crypto industry: let's play games the world wants to play.
-- No thanks, VCs: We have no rush, and infinite possibilities.
+- No thanks, VCs: we have no rush, and infinite possibilities.
 
 5. Uses Modern Tools,
 ------------------------------------
@@ -35,8 +34,8 @@ We make the right choices because we don't owe anything to anyone.
 Having our own Layer-1 blockchain keeps us free.
 We've been running experimental Diem and Move networks since 2019.
 Focused on LIBRA, not Blockchain
-The chain has all smart contract you need to use, save, plan with LIBRA, and
-none of the garbage to distract you.
+The chain intends to have all the Smart Contracts you need to use, save, plan
+with LIBRA, but none of the garbage to distract us.
 
 6. Has Plans Measured in Centuries,
 ------------------------------------
@@ -55,28 +54,6 @@ Explorer: https://0l.fyi/
 Docs:     https://0lnetwork.dev/
 Papers:   https://openlibra.blog
 Code:     https://github.com/0LNetworkCommunity/libra-framework
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
