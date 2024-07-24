@@ -31,33 +31,69 @@
     background-color: black;
   }
 
-  #container {
-    padding-top: 10%;
-    /* max-width: 90% */
-  }
-
   #content {
-    max-width: 50vw;
+    padding-top: 10%;
     min-width: 55ch;
-    font-size: 1.5vw;
+    max-width: 80vw;
+    font-size: 2.5vw;
     overflow-wrap: break-word;
   }
 
-  @media only screen and (max-width: 600px) {
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #content {
-      /* for the section underline */
-      font-size: 2.5vw;
+      max-width: 95vw;
+      font-size: 2.8vw;
+    }
+  }
+
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-device-width : 320px) {
+    /* Todo */
+  }
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 430px) {
+    /* Todo */
+  }
+
+  /* Desktops and laptops ----------- */
+  /* new ipads are often wider than some laptops */
+  @media only screen and (min-width : 800px) {
+    #content {
+      max-width: 50vw;
       min-width: 55ch;
-      max-width: 55ch;
+      font-size: 1.5vw;
       overflow-wrap: break-word;
     }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Todo */
+  }
+
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
+    #content {
+      max-width: 50vw;
+      font-size: 2vw;
+    }
+  }
+
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Todo */
+  }
+
+  /* Large screens ----------- */
+  @media only screen and (min-width : 1824px) {
+    /* Todo */
   }
 </style>
 
 <body>
-  <div id="container">
-    <div id="content">...</div>
-  </div>
+  <div id="content">...</div>
 </body>
 
 </html>
