@@ -49,17 +49,30 @@ Having our own Layer-1 blockchain ensures our freedom. We've been running high p
 
 We play a long game that few have patience for. There is a desert to cross and the prize is worth the sacrifice.
 
-7. To Become a Perpetual Force
+7. To Become an Unstoppable Force
 -----------------------------------------------------
 
 All future generations should have dependable capital for interventions in society.
 
------------------------ LINKS -----------------------
+
+
+
+LINKS
+-----------------------------------------------------
+
 Wallet:   https://github.com/0LNetworkCommunity/carpe
 Explorer: https://0l.fyi/
 Docs:     https://docs.openlibra.io/
 Papers:   https://docs.openlibra.io/archive/
 Code:     https://github.com/0LNetworkCommunity/libra-framework
+
+[this text is a preview draft from 2024-07-24]
+
+
+
+
+
+
 
 
 
@@ -75,5 +88,3 @@ Code:     https://github.com/0LNetworkCommunity/libra-framework
 
 
 ¹ All your base are belong to us.
-
-[preview draft 2024-07-24]
