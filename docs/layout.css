@@ -11,17 +11,22 @@ body {
 
 #container {
   padding-top: 10%;
-  max-width: 100%;
+  max-width: 50%;
+  overflow-wrap: break-word;
 }
 
 #hero {
-  font-size: 1.25vw;
+  min-width: 50ch;
+  font-size: 75%;
+  font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
-  #hero {
-    font-size: 50%;
-    font-weight: bold;
+
+@media only screen and (max-width: 900px) {
+  #container {
+    padding-top: 10%;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 }
 
