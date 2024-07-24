@@ -17,15 +17,6 @@
       .catch(error => {
         document.getElementById('content').textContent = 'All your base are belong to us.';
       });
-
-    fetch('hero.txt')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('hero').textContent = data;
-      })
-      .catch(error => {
-        document.getElementById('hero').textContent = '';
-      });
   </script>
 </head>
 <style>
@@ -42,38 +33,29 @@
 
   #container {
     padding-top: 10%;
-    max-width: 50%;
+    /* max-width: 90% */
+  }
+
+  #content {
+    max-width: 50vw;
+    min-width: 55ch;
+    font-size: 1.5vw;
     overflow-wrap: break-word;
   }
 
-  #hero {
-    min-width: 60ch;
-    font-size: 80%;
-    font-weight: bold;
-  }
-
   @media only screen and (max-width: 600px) {
-    #hero {
-      font-size: 50%;
-      font-weight: bold;
-    }
-    #container {
-      padding-top: 10%;
-      max-width: 90%;
+    #content {
+      /* for the section underline */
+      font-size: 2.5vw;
+      min-width: 55ch;
+      max-width: 55ch;
       overflow-wrap: break-word;
-    }
-  }
-
-  @media only screen and (max-width: 350px) {
-    #hero {
-      visibility: hidden;
     }
   }
 </style>
 
 <body>
   <div id="container">
-    <div id="hero">...</div>
     <div id="content">...</div>
   </div>
 </body>
