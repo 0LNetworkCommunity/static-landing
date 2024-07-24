@@ -1,20 +1,20 @@
 1. Yes, We Took It
------------------------------------------
+-----------------------------------
 
 We hard-forked Facebook¹ out of Libra.
 
 2. To Fulfill the Promise of Good Capital
------------------------------------------
+-----------------------------------
 
 Crypto promised us independent capital which would make the future arrive faster. But it now belongs to banks, ETFs, and hedge funds. Plus, the technology will someday (if not already) be in the rear-view mirror.
 
 3. By Producing the Best Open Asset
------------------------------------------
+-----------------------------------
 
 LIBRA is an accessible and perpetual digital property carefully designed for its purpose: capital. Prosperity comes from people saving and planning for transformation. All of the LIBRA possible has already been produced, and remarkably 95% of it has been saved, pledged, or donated for the future.
 
 4. Which is Fiercely Independent,
------------------------------------------
+-----------------------------------
 
 We make the right choices because we don't owe anything to anyone.
 - Government proof: every coin was mined and no money ever raised.
@@ -23,22 +23,21 @@ We make the right choices because we don't owe anything to anyone.
 - No thanks VCs: we have no rush, and infinite possibilities.
 
 5. Uses Modern Tools,
------------------------------------------
+-----------------------------------
 
 Having our own Layer-1 blockchain ensures our freedom. We've been running high performance Diem and Move networks since 2019. We intend for the chain to have all the smart contracts you need to use, save, plan with LIBRA, but none of the nonsense to distract us. Think LIBRA, not Blockchain.
 
 6. Has Plans Measured in Centuries
------------------------------------------
+-----------------------------------
 
 We play a long game that few have patience for. There is a desert to cross and the prize is worth the sacrifice.
 
 7. To Become a Perpetual Force
------------------------------------------
+-----------------------------------
 
 All future generations should have dependable capital for interventions in society.
 
-
------------------ LINKS -----------------
+--------------- LINKS ---------------
 Wallet:   https://github.com/0LNetworkCommunity/carpe
 Explorer: https://0l.fyi/
 Docs:     https://docs.openlibra.io/

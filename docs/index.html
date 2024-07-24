@@ -47,15 +47,19 @@
   }
 
   #hero {
-    min-width: 50ch;
-    font-size: 75%;
+    min-width: 60ch;
+    font-size: 80%;
     font-weight: bold;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 600px) {
+    #hero {
+      font-size: 50%;
+      font-weight: bold;
+    }
     #container {
       padding-top: 10%;
-      max-width: 100%;
+      max-width: 90%;
       overflow-wrap: break-word;
     }
   }
