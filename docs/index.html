@@ -8,14 +8,18 @@
   <meta http-equiv="Expires" content="0" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
+    fetch('hero-marquee.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('hero').textContent = data;
+      })
     fetch('words.txt')
       .then(response => response.text())
       .then(data => {
-        document.getElementById('content').textContent = data;
-
+        document.getElementById('text').textContent = data;
       })
       .catch(error => {
-        document.getElementById('content').textContent = 'All your base are belong to us.';
+        document.getElementById('text').textContent = 'All your base are belong to us.';
       });
   </script>
 </head>
@@ -31,12 +35,28 @@
     background-color: black;
   }
 
-  #content {
+  #hero {
     padding-top: 10%;
+    /* min-width: 20ch; */
+    max-width: 100%;
+    /* font-size: 100%; */
+    overflow-wrap: normal;
+  }
+
+  #text {
+    padding-top: 10%;
+    /* min-width: 20ch; */
+    max-width: 100%;
+    /* font-size: 100%; */
+    overflow-wrap: break-word;
+  }
+
+  #content {
+    /* padding-top: 10%; */
     min-width: 55ch;
     max-width: 80vw;
-    font-size: 2.5vw;
-    overflow-wrap: break-word;
+    /* font-size: 100%; */
+    /* overflow-wrap: break-word; */
   }
 
   /* Smartphones (portrait and landscape) ----------- */
@@ -60,7 +80,7 @@
   /* Desktops and laptops ----------- */
   /* new ipads are often wider than some laptops */
   @media only screen and (min-width : 800px) {
-    #content {
+    #text {
       max-width: 50vw;
       min-width: 55ch;
       font-size: 1.5vw;
@@ -75,7 +95,7 @@
 
   /* iPads (landscape) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1200px) and (orientation : landscape) {
-    #content {
+    #text {
       max-width: 50vw;
       font-size: 2vw;
     }
@@ -93,7 +113,10 @@
 </style>
 
 <body>
-  <div id="content"></div>
+  <div id="content">
+    <pre id="hero"></pre>
+    <div id="text"></div>
+  </div>
 </body>
 
 </html>
