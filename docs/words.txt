@@ -36,7 +36,7 @@ We make correct choices because we don't owe anything to anyone.
 
 Having our own Layer-1 blockchain ensures $CARPE's independence. It's not easy, but it ensures our perpetuity.
 
-We've been running high performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts any person or institution need to use, save, plan with $CARPE, but none of the nonsense to distract us.
+We've been running high performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. And actively excludes any nonsense to distract us.
 
 Think $CARPE, not Blockchain.
 
