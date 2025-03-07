@@ -8,10 +8,15 @@
   <meta http-equiv="Expires" content="0" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    fetch('hero-marquee.txt')
+    fetch('hero-marquee-carpe.txt')
       .then(response => response.text())
       .then(data => {
-        document.getElementById('hero').textContent = data;
+        document.getElementById('hero-carpe').textContent = data;
+      })
+    fetch('hero-marquee-diem.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('hero-diem').textContent = data;
       })
     fetch('words.txt')
       .then(response => response.text())
@@ -35,19 +40,23 @@
     background-color: black;
   }
 
-  #hero {
-    padding-top: 10%;
+  #hero-carpe {
+    /* padding-top: 10%; */
     /* min-width: 20ch; */
     max-width: 100%;
-    /* font-size: 100%; */
-    overflow-wrap: normal;
+    font-size: 100%;
+  }
+  #hero-diem {
+    /* padding-top: 10%; */
+    /* min-width: 20ch; */
+    max-width: 100%;
+    font-size: 150%;
   }
 
   #text {
     padding-top: 10%;
     /* min-width: 20ch; */
     max-width: 100%;
-    /* font-size: 100%; */
     overflow-wrap: break-word;
   }
 
@@ -114,7 +123,8 @@
 
 <body>
   <div id="content">
-    <pre id="hero"></pre>
+    <pre id="hero-carpe"></pre>
+    <pre id="hero-diem"></pre>
     <div id="text"></div>
   </div>
 </body>
