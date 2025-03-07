@@ -21,9 +21,11 @@ jobs:
         id: preview-step
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./docs/
+          source-dir: docs/
           preview-branch: main
           pages-base-path: docs/
+          umbrella-dir: docs/previews/
+
       - run: echo "${{ steps.preview-step.outputs }}"
       - if: steps.preview-step.outputs.deployment-action == 'deploy'
         run: echo "Preview visible at ${{ steps.preview-step.outputs.preview-url }}"
