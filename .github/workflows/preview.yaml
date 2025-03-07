@@ -18,6 +18,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy preview
+        id: preview-step
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./docs/
+      - run: echo "${{ steps.preview-step.outputs }}"
+      - if: steps.preview-step.outputs.deployment-action == 'deploy'
+        run: echo "Preview visible at ${{ steps.preview-step.outputs.preview-url }}"
