@@ -23,6 +23,7 @@ jobs:
         with:
           source-dir: ./docs/
           preview-branch: main
+          pages-base-path: ./docs/
       - run: echo "${{ steps.preview-step.outputs }}"
       - if: steps.preview-step.outputs.deployment-action == 'deploy'
         run: echo "Preview visible at ${{ steps.preview-step.outputs.preview-url }}"
