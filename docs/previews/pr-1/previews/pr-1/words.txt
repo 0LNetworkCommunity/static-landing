@@ -1,7 +1,7 @@
 1. Yes, We Took It
 -----------------------------------------------------
 
-Many years ago we hard-forked Facebook¹ out of Diem².
+Many years ago we hard-forked Facebook¹ out of Diem.
 
 2. To Fulfill the Promise of Good Capital
 -----------------------------------------------------
