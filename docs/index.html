@@ -8,7 +8,7 @@
   <meta http-equiv="Expires" content="0" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    fetch('hero-colossal-carpe.txt')
+    fetch('hero-roman.txt')
       .then(response => response.text())
       .then(data => {
         document.getElementById('hero-carpe').textContent = data;
@@ -37,28 +37,18 @@
 
   #hero-carpe {
     max-width: 100%;
-    font-size: clamp(1rem, 1vw, 3rem);
-  }
-  #hero-diem {
-    /* padding-top: 10%; */
-    /* min-width: 20ch; */
-    max-width: 100%;
-    font-size: 150%;
+    font-size: clamp(1rem, 1vw);
   }
 
   #text {
     padding-top: 10%;
-    /* min-width: 20ch; */
     max-width: 100%;
     overflow-wrap: break-word;
   }
 
   #content {
-    /* padding-top: 10%; */
     min-width: 55ch;
     max-width: 80vw;
-    /* font-size: 100%; */
-    /* overflow-wrap: break-word; */
   }
 
   /* Smartphones (portrait and landscape) ----------- */
