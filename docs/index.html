@@ -8,16 +8,16 @@
   <meta http-equiv="Expires" content="0" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    fetch('hero-marquee-carpe.txt')
+    fetch('hero-colossal-carpe.txt')
       .then(response => response.text())
       .then(data => {
         document.getElementById('hero-carpe').textContent = data;
       })
-    fetch('hero-marquee-diem.txt')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('hero-diem').textContent = data;
-      })
+    // fetch('hero-marquee-diem.txt')
+    //   .then(response => response.text())
+    //   .then(data => {
+    //     document.getElementById('hero-diem').textContent = data;
+    //   })
     fetch('words.txt')
       .then(response => response.text())
       .then(data => {
@@ -124,7 +124,6 @@
 <body>
   <div id="content">
     <pre id="hero-carpe"></pre>
-    <pre id="hero-diem"></pre>
     <div id="text"></div>
   </div>
 </body>

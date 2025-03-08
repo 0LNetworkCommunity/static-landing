@@ -8,7 +8,7 @@ Many years ago we hard-forked Facebook¹ out of Diem².
 
 We came to blockchain for independent capital which would make the future arrive faster.
 
-Now crypto belongs to banks, ETFs, and hedge funds. And the technology itself is in the rear-view mirror.
+Currencies are silly. Worse, crypto now belongs to banks, ETFs, and hedge funds. And the technology itself is in the rear-view mirror.
 
 We think perpetually durable, hyper-liquid, high-leverage capital is an gift to society, if it is designed that way.
 
@@ -25,10 +25,10 @@ Over the years our peer-to-peer games made users save, pledge, defer, or donate 
 -----------------------------------------------------
 
 We make correct choices because we don't owe anything to anyone.
-- Standalone Tech: we don't depend on ideas of other infrastructure providers.
+- Standalone tech: we don't depend on ideas of other infrastructure providers.
 - Government proof: every coin was mined and no money ever raised.
 - No Labs or Foundation: yes to moral authority and meritocracy.
-- So long, Crypto industry: we'll play games the world wants to play.
+- No crypto schemes: let's play games the world wants to play.
 - No thanks VCs: we have no rush, and infinite possibilities.
 
 5. Uses Modern Tools
@@ -36,9 +36,7 @@ We make correct choices because we don't owe anything to anyone.
 
 Having our own Layer-1 blockchain ensures $CARPE's independence. It's not easy, but it ensures our perpetuity.
 
-We've been running high performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. And actively excludes any nonsense to distract us.
-
-Think $CARPE, not Blockchain.
+We've been running high performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. And actively excludes any nonsense to distract us. Think $CARPE, not Blockchain.
 
 6. And Has Plans Measured in Centuries
 -----------------------------------------------------
