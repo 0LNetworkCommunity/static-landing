@@ -13,11 +13,6 @@
       .then(data => {
         document.getElementById('hero-carpe').textContent = data;
       })
-    // fetch('hero-marquee-diem.txt')
-    //   .then(response => response.text())
-    //   .then(data => {
-    //     document.getElementById('hero-diem').textContent = data;
-    //   })
     fetch('words.txt')
       .then(response => response.text())
       .then(data => {
@@ -41,10 +36,8 @@
   }
 
   #hero-carpe {
-    /* padding-top: 10%; */
-    /* min-width: 20ch; */
     max-width: 100%;
-    font-size: 100%;
+    font-size: clamp(1rem, 1vw, 3rem);
   }
   #hero-diem {
     /* padding-top: 10%; */

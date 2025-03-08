@@ -25,11 +25,21 @@ Over the years our peer-to-peer games have made users save, pledge, defer, or do
 -----------------------------------------------------
 
 We make correct choices because we don't owe anything to anyone.
-- Standalone tech: we don't depend on ideas of other infrastructure providers.
-- Government proof: every coin was mined and no money ever raised.
-- No Labs or Foundation: yes to moral authority and meritocracy.
-- No crypto schemes: let's play games the world wants to play.
-- No thanks VCs: we have no rush, and infinite possibilities.
+
+*Government proof*
+Every coin was mined and no money ever raised.
+
+*No legal entity*
+Yes to moral authority and meritocracy.
+
+*No ponzinomics*
+Let's play games the world wants to play.
+
+*Standalone tech*
+We don't be hostage to political economy of a host chain.
+
+*No thanks VCs*
+We have no rush, and infinite possibilities.
 
 5. Uses Modern Tools
 -----------------------------------------------------
