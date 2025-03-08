@@ -1,10 +1,21 @@
+  .oooooo.         .o.       ooooooooo.   ooooooooo.   oooooooooooo
+ d8P'  `Y8b       .888.      `888   `Y88. `888   `Y88. `888'     `8
+888              .8"888.      888   .d88'  888   .d88'  888
+888             .8' `888.     888ooo88P'   888ooo88P'   888oooo8
+888            .88ooo8888.    888`88b.     888          888    "
+`88b    ooo   .8'     `888.   888  `88b.   888          888       o
+ `Y8bood8P'  o88o     o8888o o888o  o888o o888o        o888ooooood8
+
+
+AN ENDOWMENT FOR GOOD AND PROFIT
+
 1. Yes, We Took It
------------------------------------------------------
+--------------------------------------------------------------------
 
 Many years ago we hard-forked Facebook¹ out of Diem².
 
 2. To Fulfill the Promise of Good Capital
------------------------------------------------------
+--------------------------------------------------------------------
 
 We were originally attracted to blockchain for the promise of independent capital which would make the future arrive faster.
 
@@ -14,7 +25,8 @@ However there's a thing that comes after currencies.  An open, perpetually durab
 
 
 3. By Producing a Sensible Asset
------------------------------------------------------
+--------------------------------------------------------------------
+
 
 $CARPE is an asset designed for one purpose: perpetual capital.
 
@@ -23,7 +35,8 @@ Prosperity comes from people saving and planning for transformation.
 Here at Carpe over the years our peer-to-peer games have made users save, pledge, defer, or donate nearly 90%+ of their earnings to future-looking programs. Programs seeking good and profit.
 
 4. Which is Fiercely Independent
------------------------------------------------------
+--------------------------------------------------------------------
+
 
 We make correct choices because we don't owe anything to anyone.
 
@@ -43,14 +56,16 @@ We won't be hostage to the political economy of ill-conceived smart contract pla
 We have no rush, and infinite possibilities.
 
 5. Uses Modern Tools
------------------------------------------------------
+--------------------------------------------------------------------
+
 
 Having our own Layer-1 blockchain ensures $CARPE's independence.
 
 We've been developing and running high performance Diem and Move blockchains platforms since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. It actively excludes any nonsense to distract us. Think $CARPE, not Blockchain.
 
 6. And Has Plans Measured in Centuries
------------------------------------------------------
+--------------------------------------------------------------------
+
 
 We play a long game that few have patience for.
 
@@ -58,7 +73,7 @@ On the other side of the desert exists dependable capital for interventions in s
 
 
 LINKS
------------------------------------------------------
+--------------------------------------------------------------------
 
 Wallet:   https://github.com/0LNetworkCommunity/carpe
 Explorer: https://0l.fyi/
