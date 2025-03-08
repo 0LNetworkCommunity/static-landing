@@ -44,9 +44,9 @@ We have no rush, and infinite possibilities.
 5. Uses Modern Tools
 -----------------------------------------------------
 
-Having our own Layer-1 blockchain ensures $CARPE's independence. It's not easy, but it ensures our perpetuity.
+Having our own Layer-1 blockchain ensures $CARPE's independence.
 
-We've been running high performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. And actively excludes any nonsense to distract us. Think $CARPE, not Blockchain.
+We've been developing and running high performance Diem and Move blockchains platforms since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. It actively excludes any nonsense to distract us. Think $CARPE, not Blockchain.
 
 6. And Has Plans Measured in Centuries
 -----------------------------------------------------
