@@ -1,37 +1,45 @@
-  .oooooo.         .o.       ooooooooo.   ooooooooo.   oooooooooooo
- d8P'  `Y8b       .888.      `888   `Y88. `888   `Y88. `888'     `8
-888              .8"888.      888   .d88'  888   .d88'  888
-888             .8' `888.     888ooo88P'   888ooo88P'   888oooo8
-888            .88ooo8888.    888`88b.     888          888    "
-`88b    ooo   .8'     `888.   888  `88b.   888          888       o
- `Y8bood8P'  o88o     o8888o o888o  o888o o888o        o888ooooood8
+    .::::      .:::::::   .:::::::: .:::     .::
+  .::    .::   .::    .:: .::       .: .::   .::
+.::        .:: .::    .:: .::       .:: .::  .::
+.::        .:: .:::::::   .::::::   .::  .:: .::
+.::        .:: .::        .::       .::   .: .::
+  .::     .::  .::        .::       .::    .: ::
+    .::::      .::        .:::::::: .::      .::
+
+.::       .:: .:: .::    .:::::::           .:
+.::       .:: .:    .::  .::    .::        .: ::
+.::       .:: .:     .:: .::    .::       .:  .::
+.::       .:: .::: .:    .: .::          .::   .::
+.::       .:: .:     .:: .::  .::       .:::::: .::
+.::       .:: .:      .: .::    .::    .::       .::
+.:::::::: .:: .:::: .::  .::      .:: .::         .::
 
 
-AN ENDOWMENT FOR GOOD AND PROFIT
+GOOD CAPITAL
 
 1. Yes, We Took It
 --------------------------------------------------------------------
 
-Many years ago we hard-forked Facebook¹ out of Diem².
+Many years ago we hard-forked Facebook¹ out of Diem.
 
 2. To Fulfill the Promise of Good Capital
 --------------------------------------------------------------------
 
 We were originally attracted to blockchain for the promise of independent capital which would make the future arrive faster.
 
-But crypto currencies are silly. And crypto now belongs to banks, ETFs, and hedge funds. Worse, the technology itself is in the rear-view mirror.
+Let's be real. Cryptocurrencies are silly. The better ones hope to be merged into banks, ETFs, and hedge funds. While the technology itself drifts in the rear-view mirror.
 
-However, something meaningful is still possible with openly accessible, perpetually durable, hyper-liquid, high-leverage, rent-producing digital titles.
+But they may have made a way for something meaningful to come next. We gather here for openly accessible, perpetually durable, hyper-liquid, high-leverage, rent-producing digital titles.
 
 
 3. By Producing a Sensible Asset
 --------------------------------------------------------------------
 
-$CARPE is an asset designed for one purpose: perpetual capital for good and profit.
+$LBR is an asset designed for one purpose: perpetual capital for both good and profit.
 
 Prosperity comes from people saving and planning for transformation.
 
-Here at Carpe over the years our peer-to-peer games have made users save, pledge, defer, or donate nearly 90%+ of their earnings to future-looking programs. Programs seeking good and profit.
+Open Libra's peer-to-peer games have made users save, pledge, defer, or donate nearly 90%+ of their earnings to future-looking programs. Programs seeking good and profit.
 
 4. Which is Fiercely Independent
 --------------------------------------------------------------------
@@ -50,34 +58,38 @@ No ponzinomics; let's play games the world wants to play.
 *Standalone tech*
 We won't be hostage to the political economy of ill-conceived smart contract platforms.
 
-*Hard pass, VCs*
+*No Investors*
 We have no rush, and infinite possibilities.
 
 5. Uses Modern Tools
 --------------------------------------------------------------------
 
-Having our own Layer-1 blockchain ensures $CARPE's independence.
+Having our own Layer-1 blockchain ensures $LBR's independence.
 
-We've been developing and running high performance Diem and Move blockchains platforms since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $CARPE. It actively excludes any nonsense to distract us. Think $CARPE, not Blockchain.
+We've been developing and running high performance Diem and Move blockchains platforms since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $LBR.
+
+It actively excludes any nonsense which distracts us. Think $LBR, not blockchain.
 
 6. And Has Plans Measured in Centuries
 --------------------------------------------------------------------
 
 We play a long game that few have patience for.
 
-On the other side of the desert exists dependable capital for interventions in society, for all future generations. ✊🌞
+Across the desert exists dependable capital for interventions in society, for all future generations.
+
+Let's build something lasting. ✊🌞
 
 
 LINKS
 --------------------------------------------------------------------
 
 Wallet:   https://github.com/0LNetworkCommunity/carpe
-Explorer: https://0l.fyi/
+Explorer: https://scan.openlibra.world
 Docs:     https://docs.openlibra.io/
 Papers:   https://docs.openlibra.io/archive/
 Code:     https://github.com/0LNetworkCommunity/libra-framework
 
-[this text is a preview draft from 2025-03-04]
+[this text is a preview draft from 2025-03-31]
 
 
 
@@ -99,4 +111,3 @@ Code:     https://github.com/0LNetworkCommunity/libra-framework
 
 
 ¹ All your base are belong to us.
-² You knew us as OpenLibra
