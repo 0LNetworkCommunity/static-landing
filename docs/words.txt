@@ -46,22 +46,22 @@ Through Open Libra’s peer-to-peer experiments, participants have pledged, defe
 --------------------------------------------------------------------
 We choose freely because we owe no one.
 
-*Unaffiliated with Government*
+* Unaffiliated with Government *
 Every $LBR was earned through mining. No pre-mine, no sale, no regulatory arbitrage.
 
-*No Legal Wrapper*
+* No Legal Wrapper *
 We work without incorporation—not out of neglect, but principle. Authority here is moral. Leadership is earned. Presence matters more than paperwork.
 
-*Proof of Labor*
+ *Proof of Labor *
 There is no shell game, no empty cycle of promises. Only systems people want to use—again and again.
 
-*Technically Sovereign*
+* Technically Sovereign *
 We are not beholden to smart contract platforms designed with different goals. Our stack is our own, built to last.
 
-*Without Investors*
+* Without Investors *
 We have no exit to race toward. No quarterly metrics to chase. Our horizon is unhurried and vast.
 
-#No Predators*
+* No Predators*
 We do not endorse capital games disguised as consensus—schemes where early insiders earn endlessly while latecomers subsidize their position. 
 
 5. Grounded in Modern Tools
