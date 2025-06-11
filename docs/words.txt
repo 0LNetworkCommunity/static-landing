@@ -20,86 +20,78 @@ GOOD CAPITAL
 1. Yes, We Took It
 --------------------------------------------------------------------
 
-Many years ago we hard-forked Facebook¹ out of Diem.
+Many years ago we hard-forked Facebook¹ out of Libra.
 
-2. To Fulfill the Promise of Good Capital
+2. To Realize the Promise of Good Capital
 --------------------------------------------------------------------
 
-We were originally attracted to blockchain for the promise of independent capital which would make the future arrive faster.
+We came to blockchain drawn by its early ideal, that capital could be unbounded: independent, accelerating, transformative.
 
-Let's be real. Cryptocurrencies are silly. The better ones hope to be merged into banks, ETFs, and hedge funds. While the technology itself drifts in the rear-view mirror.
+Let’s be real. Much of crypto has turned inward, chasing novelty or nostalgia. The more sophisticated projects seek absorption into legacy finance—banking rails, ETF wrappers, asset desks—while while the public watches in confusion.
 
-But they may have made a way for something meaningful to come next. We gather here for openly accessible, perpetually durable, hyper-liquid, high-leverage, rent-producing digital titles.
+And yet, something remarkable may have been uncovered along the way.
 
+What if these early systems were simply scaffolding for something more enduring? We stand here to propose exactly that: an open, liquid, lasting, high-leverage architecture for titles—of value, of intent, of shared consequence.
 
-3. By Producing a Sensible Asset
+3. Rooted in a Principled Asset
 --------------------------------------------------------------------
+$LBR exists for a singular reason: to seed perpetual capital in service of both good and gain.
 
-$LBR is an asset designed for one purpose: perpetual capital for both good and profit.
+Prosperity does not arise from chance. It emerges from restraint, from design, from saving toward a vision not yet realized.
 
-Prosperity comes from people saving and planning for transformation.
+Through Open Libra’s peer-to-peer experiments, participants have pledged, deferred, and redirected more than 90% of their earnings into forward-facing programs—initiatives that are both idealistic and economically sound.
 
-Open Libra's peer-to-peer games have made users save, pledge, defer, or donate nearly 90%+ of their earnings to future-looking programs. Programs seeking good and profit.
 
-4. Which is Fiercely Independent
+4. And Stubbornly Independent
 --------------------------------------------------------------------
+We choose freely because we owe no one.
 
-We make correct choices because we don't owe anything to anyone.
+*Unaffiliated with Government*
+Every $LBR was earned through mining. No pre-mine, no sale, no regulatory arbitrage.
 
-*Government proof*
-Every coin was mined and no money ever raised.
-
-*No legal entity*
-Yes to moral authority, meritocracy, and showing up everyday.
+*No Legal Wrapper*
+We work without incorporation—not out of neglect, but principle. Authority here is moral. Leadership is earned. Presence matters more than paperwork.
 
 *Proof of Labor*
-No ponzinomics; let's play games the world wants to play.
+There is no shell game, no empty cycle of promises. Only systems people want to use—again and again.
 
-*Standalone tech*
-We won't be hostage to the political economy of ill-conceived smart contract platforms.
+*Technically Sovereign*
+We are not beholden to smart contract platforms designed with different goals. Our stack is our own, built to last.
 
-*No Investors*
-We have no rush, and infinite possibilities.
+*Without Investors*
+We have no exit to race toward. No quarterly metrics to chase. Our horizon is unhurried and vast.
 
-5. Uses Modern Tools
+#No Predators*
+We do not endorse capital games disguised as consensus—schemes where early insiders earn endlessly while latecomers subsidize their position. 
+
+5. Grounded in Modern Tools
 --------------------------------------------------------------------
+A purpose-built Layer-1 blockchain secures the independence of $LBR.
 
-Having our own Layer-1 blockchain ensures $LBR's independence.
+Since 2019, we’ve worked in the Move and Diem ecosystems—quietly, consistently, building performance-grade infrastructure.
 
-We've been developing and running high performance Diem and Move blockchains platforms since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $LBR.
+The result is a chain that supports contracts and coordination for anyone—individual or institution—wishing to store, grow, or distribute capital with intent.
 
-It actively excludes any nonsense which distracts us. Think $LBR, not blockchain.
+We leave behind distractions and empty noise. Think less about blockchain. Think more about what it enables.
 
-6. And Has Plans Measured in Centuries
+6. And Measured in Centuries
 --------------------------------------------------------------------
+ 
+We are building across time with no end in sight. Not quarters or hype cycles, but generations.
 
-We play a long game that few have patience for.
+Beyond the market’s churn, there lies a calm reserve: capital designed for interventions that matter — for institutions not yet imagined, and citizens not yet born.
 
-Across the desert exists dependable capital for interventions in society, for all future generations.
-
-Let's build something lasting. ✊🌞
-
+We have the patience to build something lasting ✊🌞
 
 LINKS
---------------------------------------------------------------------
 
-Wallet:   https://github.com/0LNetworkCommunity/carpe
+Wallet: https://github.com/0LNetworkCommunity/carpe
 Explorer: https://scan.openlibra.world
-Docs:     https://docs.openlibra.io/
-Papers:   https://docs.openlibra.io/archive/
-Code:     https://github.com/0LNetworkCommunity/libra-framework
+Docs: https://docs.openlibra.io/
+Papers: https://docs.openlibra.io/archive/
+Code: https://github.com/0LNetworkCommunity/libra-framework
 
-[this text is a preview draft from 2025-03-31]
-
-
-
-
-
-
-
-
-
-
+[This is a preview draft dated 2025-06-11]
 
 
 
