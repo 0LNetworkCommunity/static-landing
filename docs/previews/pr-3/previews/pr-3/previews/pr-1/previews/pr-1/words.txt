@@ -1,0 +1,83 @@
+1. Yes, We Took It
+-----------------------------------------------------
+
+Many years ago we hard-forked Facebook¹ out of Diem².
+
+2. To Fulfill the Promise of Good Capital
+-----------------------------------------------------
+
+We came to blockchain for independent capital which would make the future arrive faster.
+
+Now crypto belongs to banks, ETFs, and hedge funds. And the technology itself is in the rear-view mirror.
+
+We think perpetually durable, hyper-liquid, high-leverage capital is an gift to society, if it is designed that way.
+
+3. By Producing a Sensible Asset
+-----------------------------------------------------
+
+$CARPE is an accessible and perpetual digital property. It is carefully designed for its purpose: capital.
+
+Prosperity comes from people saving and planning for transformation.
+
+Over the years our peer-to-peer games made users save, pledge, defer, or donate nearly 90%+ of their earnings to future programs, for good and profit.
+
+4. Which is Fiercely Independent
+-----------------------------------------------------
+
+We make correct choices because we don't owe anything to anyone.
+- Standalone Tech: we don't depend on ideas of other infrastructure providers.
+- Government proof: every coin was mined and no money ever raised.
+- No Labs or Foundation: yes to moral authority and meritocracy.
+- So long, Crypto industry: we'll play games the world wants to play.
+- No thanks VCs: we have no rush, and infinite possibilities.
+
+5. Uses Modern Tools
+-----------------------------------------------------
+
+Having our own Layer-1 blockchain ensures $CARPE's independence. It's not easy, but it ensures our perpetuity.
+
+We've been running high performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts any person or institution need to use, save, plan with $CARPE, but none of the nonsense to distract us.
+
+Think $CARPE, not Blockchain.
+
+6. And Has Plans Measured in Centuries
+-----------------------------------------------------
+
+We play a long game that few have patience for.
+
+On the other side of the desert exists dependable capital for interventions in society, for all future generations.
+
+✊🌞
+
+LINKS
+-----------------------------------------------------
+
+Wallet:   https://github.com/0LNetworkCommunity/carpe
+Explorer: https://0l.fyi/
+Docs:     https://docs.openlibra.io/
+Papers:   https://docs.openlibra.io/archive/
+Code:     https://github.com/0LNetworkCommunity/libra-framework
+
+[this text is a preview draft from 2025-03-04]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¹ All your base are belong to us.
+² You knew us as OpenLibra

@@ -1,0 +1,113 @@
+    .::::      .:::::::   .:::::::: .:::     .::
+  .::    .::   .::    .:: .::       .: .::   .::
+.::        .:: .::    .:: .::       .:: .::  .::
+.::        .:: .:::::::   .::::::   .::  .:: .::
+.::        .:: .::        .::       .::   .: .::
+  .::     .::  .::        .::       .::    .: ::
+    .::::      .::        .:::::::: .::      .::
+
+.::       .:: .:: .::    .:::::::           .:
+.::       .:: .:    .::  .::    .::        .: ::
+.::       .:: .:     .:: .::    .::       .:  .::
+.::       .:: .::: .:    .: .::          .::   .::
+.::       .:: .:     .:: .::  .::       .:::::: .::
+.::       .:: .:      .: .::    .::    .::       .::
+.:::::::: .:: .:::: .::  .::      .:: .::         .::
+
+
+GOOD CAPITAL
+
+1. Yes, We Took It
+--------------------------------------------------------------------
+
+Many years ago we hard-forked Facebook¹ out of Diem.
+
+2. To Fulfill the Promise of Good Capital
+--------------------------------------------------------------------
+
+We were originally attracted to blockchain for the promise of independent capital which would make the future arrive faster.
+
+Let's be real. Cryptocurrencies are silly. The better ones hope to be merged into banks, ETFs, and hedge funds. While the technology itself drifts in the rear-view mirror.
+
+But they may have made a way for something meaningful to come next. We gather here for openly accessible, perpetually durable, hyper-liquid, high-leverage, rent-producing digital titles.
+
+
+3. By Producing a Sensible Asset
+--------------------------------------------------------------------
+
+$LBR is an asset designed for one purpose: perpetual capital for both good and profit.
+
+Prosperity comes from people saving and planning for transformation.
+
+Open Libra's peer-to-peer games have made users save, pledge, defer, or donate nearly 90%+ of their earnings to future-looking programs. Programs seeking good and profit.
+
+4. Which is Fiercely Independent
+--------------------------------------------------------------------
+
+We make correct choices because we don't owe anything to anyone.
+
+*Government proof*
+Every coin was mined and no money ever raised.
+
+*No legal entity*
+Yes to moral authority, meritocracy, and showing up everyday.
+
+*Proof of Labor*
+No ponzinomics; let's play games the world wants to play.
+
+*Standalone tech*
+We won't be hostage to the political economy of ill-conceived smart contract platforms.
+
+*No Investors*
+We have no rush, and infinite possibilities.
+
+5. Uses Modern Tools
+--------------------------------------------------------------------
+
+Having our own Layer-1 blockchain ensures $LBR's independence.
+
+We've been developing and running high performance Diem and Move blockchains platforms since 2019. The chain is meant to have all the smart contracts any person or institution would need to use, save, plan with $LBR.
+
+It actively excludes any nonsense which distracts us. Think $LBR, not blockchain.
+
+6. And Has Plans Measured in Centuries
+--------------------------------------------------------------------
+
+We play a long game that few have patience for.
+
+Across the desert exists dependable capital for interventions in society, for all future generations.
+
+Let's build something lasting. ✊🌞
+
+
+LINKS
+--------------------------------------------------------------------
+
+Wallet:   https://github.com/0LNetworkCommunity/carpe
+Explorer: https://scan.openlibra.world
+Docs:     https://docs.openlibra.io/
+Papers:   https://docs.openlibra.io/archive/
+Code:     https://github.com/0LNetworkCommunity/libra-framework
+
+[this text is a preview draft from 2025-03-31]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¹ All your base are belong to us.
