@@ -87,7 +87,7 @@ We have the patience to build something lasting ✊🌞
 LINKS
 
 Wallet: https://github.com/0LNetworkCommunity/carpe
-Explorer: https://scan.openlibra.world
+Explorer: https://scan.openlibra.io
 Docs: https://docs.openlibra.io/
 Papers: https://docs.openlibra.io/archive/
 Code: https://github.com/0LNetworkCommunity/libra-framework
