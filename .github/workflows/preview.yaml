@@ -21,10 +21,10 @@ jobs:
         id: preview-step
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: docs/
+          source-dir: public/
           preview-branch: main
-          pages-base-path: docs/
-          umbrella-dir: docs/previews/
+          pages-base-path: public/
+          umbrella-dir: public/previews/
 
       - run: echo "${{ steps.preview-step.outputs }}"
       - if: steps.preview-step.outputs.deployment-action == 'deploy'
