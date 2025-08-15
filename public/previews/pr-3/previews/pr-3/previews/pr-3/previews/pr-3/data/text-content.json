@@ -1,0 +1,217 @@
+{
+  "siteTitle": "Open Libra - The Future, Secured",
+  "brand": {
+    "name": "open libra",
+    "logoAlt": "Open Libra Logo"
+  },
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Example",
+      "href": "#example"
+    },
+    {
+      "label": "Links",
+      "href": "#links"
+    },
+    {
+      "label": "Explorer",
+      "href": "https://scan.openlibra.io/"
+    }
+  ],
+  "hero": {
+    "title": "Independent Capital for the Age of Acceleration",
+    "subtitle": "The investment DAO engineered for centuries"
+  },
+  "about": {
+    "title": "AI-Plus Strategy",
+    "description": "Open Libra is a sovereign, on-chain investment endowment designed to survive and thrive across centuries.",
+    "mission": "Our thesis is built on a foundational premise: all long-term institutions must correctly navigate the disruption AI will bring to every market."
+  },
+  "aboutHighlights": [
+    {
+      "title": "Century-Scale Time Horizon",
+      "description": "Designed for perpetual existence, Open Libra's structure enables capital and mission to compound uninterrupted over 100+ years."
+    },
+    {
+      "title": "All Weather, All Opportunity",
+      "description": "We consider every asset class. A broad mandate and an AI-first mandate converge as AI reshapes every market."
+    },
+    {
+      "title": "The Rails of Perpetual Capital",
+      "description": "A fund with a 100+ year mandate requires an execution layer immune to jurisdictional drift, key-man risk, and institutional fragility — only a dedicated blockchain can provide that level of neutrality and permanence."
+    }
+  ],
+  "foundation": {
+    "title": "Our Foundation",
+    "pillars": [
+      {
+  "title": "Main Street Common Sense",
+  "description": "Blockchain is not magical; it's table stakes for independent capital. Capital must compound with rigor, transparency, and alignment to endure."
+      },
+      {
+  "title": "Independent & Enduring",
+  "description": "Built on decentralized infrastructure, Open Libra operates beyond agency, jurisdictional, and custodial risks, providing an unforgeable record of capital."
+      },
+      {
+  "title": "An Open Funding Model",
+  "description": "Capital is allocated through specialized sub-DAOs, enabling parallel innovation, risk containment, and governance specialization."
+      }
+    ]
+  },
+  "inventions": {
+    "title": "Technical Infrastructure",
+    "subtitle": "Six protocol innovations that solve institutional capital problems",
+    "items": [
+      {
+        "title": "Open Libra Blockchain",
+  "description": "An open Move smart contract platform, originally forked from Facebook's Libra/Diem, with full sovereignty.",
+        "fullWidth": true
+      },
+      {
+        "title": "Donor Voice Accounts",
+        "description": "Institutional oversight without centralized control. Donors retain veto rights and liquidation authority."
+      },
+      {
+        "title": "Match Index",
+        "description": "Performance-weighted funding allocation. Sub-DAOs earn matching funds based on results, not politics."
+      },
+      {
+        "title": "Proof of Fee",
+        "description": "Cost-minimized consensus. Validators compete on operational efficiency, not computational waste."
+      },
+      {
+        "title": "Slow Wallets",
+    "description": "Mandatory vesting schedule. Early participants receive better terms; speculation is disincentivized."
+      },
+      {
+        "title": "VDF Miner",
+  "description": "Time-based token distribution. Minimal energy requirements and low capital barriers. Commitment determines allocation.",
+        "fullWidth": true
+      }
+    ]
+  },
+  "buttons": {
+    "faq": "FAQ"
+  },
+  "governance": {
+  "title": "Governance in Service of Perpetuity",
+    "description": "Open Libra employs a layered governance model combining decentralized sub-DAOs, AI-assisted decision support, and immutable on-chain voting to ensure durability, adaptability, and stakeholder alignment over generations."
+  },
+  "documentation": {
+  "title": "A Proud History of Transparency",
+  "description": "We play a long and open game. That means reacting and growing stronger through consensus. We document everything and share it publicly."
+  },
+  "example": {
+  "title": "Example: A Sub-DAO in Action",
+    "description": "Here's an example of a sub-DAO that could be launched on the Open Libra platform.",
+    "sections": [
+      {
+        "id": "matching_funds",
+        "title": "Matching Funds for Sub-DAOs",
+  "body": "A research group creates an AI Drug Discovery Sub-DAO. The platform provides matching funds to incentivize early donors. The more support the sub-DAO gets, the more global matching it receives."
+      },
+      {
+        "id": "open_creation",
+        "title": "Open Creation & Community Wallets",
+        "body": "Any team can launch a new health-focused AI Sub-DAO (e.g., rare disease diagnostics, medical imaging models). Each has its own Community Wallet where backers can contribute. Builders, researchers, and donors collaborate in a transparent, decentralized way."
+      },
+      {
+        "id": "dual_governance",
+        "title": "Disbursements Controlled by Global and Donor Policy",
+        "body": "Funding proposals (e.g., 'Train AI models on open genomics datasets') are submitted. Disbursements are approved by both global governance (DAO token holders) and direct contributors (donors to that sub-DAO), ensuring funds are spent on high-impact, aligned projects."
+      }
+    ],
+    "summary": "This model enables the open creation of specialized investment funds, where spending decisions are governed by both global and local stakeholders, ensuring alignment and impact."
+  },
+  "cta": {
+  "title": "Compounding for the Public Interest",
+  "description": "Philanthropic institutions already operate on-chain endowments with Open Libra. When you participate, you are compounding toward broad, measurable public benefit.",
+    "buttons": [
+      {
+        "label": "View Governance",
+        "href": "#governance"
+      },
+      {
+        "label": "Read Documentation",
+        "href": "#documentation"
+      }
+    ]
+  },
+  "links": {
+    "title": "Resources & Links",
+    "description": "Everything you need to get started with Open Libra.",
+    "categories": [
+      {
+        "title": "Get Started",
+        "links": [
+          {
+            "label": "Wallet",
+            "href": "https://github.com/0LNetworkCommunity/carpe",
+            "description": "Download the Open Libra wallet"
+          },
+          {
+            "label": "Block Explorer",
+            "href": "https://scan.openlibra.io/",
+            "description": "Explore the blockchain"
+          }
+        ]
+      },
+      {
+        "title": "Learn More",
+        "links": [
+          {
+            "label": "Documentation",
+            "href": "https://docs.openlibra.io/",
+            "description": "Complete technical documentation"
+          },
+          {
+            "label": "The Core Pledge",
+            "href": "./data/manifesto.txt",
+            "description": "Our vision and principles"
+          },
+          {
+            "label": "Libra Liberated",
+            "href": "https://docs.openlibra.io/blog/libra-liberated",
+            "description": "The story behind the fork"
+          }
+        ]
+      },
+      {
+        "title": "Developers",
+        "links": [
+          {
+            "label": "Papers",
+            "href": "https://docs.openlibra.io/blog/proof-of-fee-part-1",
+            "description": "Research papers and technical specs"
+          },
+          {
+            "label": "Code",
+            "href": "https://github.com/0LNetworkCommunity/libra-framework",
+            "description": "Open source codebase"
+          }
+        ]
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/0LNetworkCommunity",
+      "icon": "https://cdn.simpleicons.org/github/FAF3E7"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/0LNetwork",
+      "icon": "https://cdn.simpleicons.org/x/FAF3E7"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/servers/0l-contributors-833074824447655976",
+      "icon": "https://cdn.simpleicons.org/discord/FAF3E7"
+    }
+  ]
+}

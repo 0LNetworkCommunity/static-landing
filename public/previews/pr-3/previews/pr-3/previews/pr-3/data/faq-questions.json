@@ -1,0 +1,68 @@
+{
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common Questions About Open Libra",
+    "questions": [
+      {
+        "id": "unique_problem",
+        "question": "What unique problem does this DAO solve that existing funds or crypto projects don't?",
+        "answer": "Open Libra solves the scale problem that prevents most funds from becoming truly enduring institutions. If you want to be among the biggest endowments, you need to be prepared for scale. Blockchain is our vehicle, programmability is our scale, and governance is our social scaling mechanism. But a vehicle alone isn't enough - you need access to the best opportunities on the planet. Traditional funds are constrained by jurisdictional boundaries, regulatory capture, and institutional fragility. Crypto projects lack the institutional sophistication for century-scale capital allocation. We've engineered the endgame of institutional capital: a sovereign, on-chain investment endowment that combines blockchain's immutable programmability with AI-native operations and decentralized sub-DAO governance. This gives us access to opportunities across all sectors, geographies, and time horizons while maintaining the neutrality and permanence required for perpetual existence."
+      },
+      {
+        "id": "persistence",
+        "question": "How does Open Libra ensure it will persist and stay relevant over 100+ years?",
+        "answer": "Our persistence strategy operates on multiple layers: technical, governance, and economic. Technically, we run on our own Layer-1 blockchain forked from Facebook's Diem, ensuring we're not dependent on external infrastructure. Governance-wise, we've eliminated single points of failure through decentralized sub-DAOs and programmatic enforcement of our core principles. Economically, 95% of our supply is already locked for the future through slow wallets and donor-directed accounts, creating natural scarcity and long-term thinking."
+      },
+      {
+        "id": "token_role",
+        "question": "What role does the native token play in governance, alignment, and liquidity?",
+        "answer": "We need to look past the role of currencies or governance tokens. $LBR is an open title for all residuals - both imagined and not yet imagined. While it serves governance and store-of-value functions today, its true purpose is as a claim on the expanding universe of value that Open Libra will generate across centuries. Think of it as a perpetual warrant on human progress itself. As new forms of value emerge - whether from AI breakthroughs, space resources, or technologies we can't yet conceive - $LBR holders have a proportional claim on those residuals. This isn't just about voting rights or price appreciation; it's about owning a piece of the future's upside, whatever form that takes. The token's design ensures that patient capital is rewarded not just with governance power, but with access to the full spectrum of value creation that accompanies civilizational advancement."
+      },
+      {
+        "id": "governance_security",
+        "question": "How decentralized and secure is the governance structure today and moving forward?",
+        "answer": "We learned from Bitcoin: governance minimized protocol, reduce formal authority, allow innovation to happen at the edges of the protocol. Our core protocol remains intentionally ossified - the fundamental rules of $LBR issuance, consensus, and basic operations are designed to resist change. This provides the stability needed for century-scale planning. Innovation happens through our sub-DAO ecosystem, where specialized governance can experiment, adapt, and evolve without compromising the base layer's integrity. Security comes from this separation of concerns: the protocol layer prioritizes immutability and censorship resistance, while the application layer (sub-DAOs) provides flexibility and responsiveness. By minimizing formal authority at the protocol level, we've created antifragile governance that becomes stronger through attempted attacks or capture."
+      },
+      {
+        "id": "ai_integration",
+        "question": "How is AI actually integrated into investment decisions and risk management?",
+        "answer": "The question is 'how is AI related to the DAO'. Answer: None by protocol. We are committed to making a perpetual endowment. Five years ago our answer was different. In 2025, any sensible long-term institution that expects to survive should get one thing right: timing the wave of AI. Everything which is investable needs to be analyzed for its role with AI. This isn't about AI making our investment decisions - it's about understanding that AI disruption is the defining characteristic of our era. Our investment thesis centers on identifying opportunities that will either benefit from AI acceleration or survive AI displacement. We don't integrate AI into our protocol because protocols should be stable and predictable. But we absolutely integrate AI awareness into every investment decision because missing the AI transition would be institutional suicide for any century-scale endowment."
+      },
+      {
+        "id": "blockchain_tech",
+        "question": "What blockchain tech powers the DAO, and why is it essential?",
+        "answer": "Open Libra runs on our own high-performance Layer-1 blockchain, originally forked from Facebook's Diem project. This gives us complete sovereignty over our infrastructure - no dependence on Ethereum gas fees, no risk of other protocols changing rules underneath us. The Move programming language provides enhanced security for financial applications. Having our own chain means also being open to all the opportunities which smart contracts and decentralized protocols bring. We can experiment with novel financial instruments, automated investment strategies, and programmable capital allocation mechanisms without external constraints. Blockchain isn't just our technology choice, it's our independence guarantee: immutable records, unstoppable execution, and freedom from traditional financial system constraints."
+      },
+      {
+        "id": "regulatory_compliance",
+        "question": "How does the DAO maintain regulatory compliance and protect investors legally?",
+        "answer": "Our approach to regulation is based on the principle of 'government-proof' design rather than regulatory arbitrage. Every LIBRA token was fairly mined - no ICO, no fundraising, no securities law violations. This clean genesis gives us a strong legal foundation. We operate through decentralized governance rather than centralized management, reducing regulatory attack surfaces. Our focus on actual utility and long-term value creation, rather than speculative trading, aligns with regulators' legitimate concerns about protecting investors."
+      },
+      {
+        "id": "transparency",
+        "question": "How transparent and auditable are the investment strategies and performance?",
+        "answer": "Complete transparency is built into our DNA. All governance votes, fund movements, and investment decisions are recorded immutably on-chain. Our sub-DAO model ensures that specialized investment strategies are developed and executed in the open, with full community oversight. Performance metrics, risk assessments, and strategic adjustments are published regularly. We believe that genuine transparency, not marketing transparency, is essential for the century-scale trust we're building."
+      },
+      {
+        "id": "team_credibility",
+        "question": "Who is behind the project, and what experience assures credibility?",
+        "answer": "Open Libra emerged from the crypto community's response to Facebook's Libra project. Our core contributors include blockchain engineers who worked on the original Diem codebase, institutional investors with multi-decade track records, and governance experts who've studied the longevity of successful institutions. Rather than relying on celebrity founders, we've built a meritocratic system where contributions matter more than credentials. Our credibility comes from our open-source code, transparent governance, and the alignment of our incentives with long-term value creation."
+      },
+      {
+        "id": "blockchain_obsolescence",
+        "question": "What happens when blockchain technology becomes obsolete? How can I participate in a future beyond blockchain?",
+        "answer": "This question exposes the fundamental flaw in most crypto projects: they're betting on the technology, not on what the technology enables. Blockchain is our execution layer, not our value proposition. When superintelligence emerges and makes current networked systems obsolete, LIBRA's value won't disappear - it will migrate. The thing that outlives technology is content, and financial content is simply another word for assets. Our century-scale planning explicitly accounts for technological obsolescence. We're not building a blockchain company; we're building perpetual capital that can adapt across technological paradigm shifts. Think of LIBRA as financial DNA - the information encoding value and ownership that will express itself through whatever computational substrate the future provides."
+      },
+      {
+        "id": "sub_dao_assets",
+        "question": "What assets do Sub-DAO community wallets invest in?",
+        "answer": "Sub-DAO community wallets operate as 'all-weather' perpetual endowments, designed to steward capital across centuries. Each Sub-DAO independently determines its strategy, balancing treasuries, public equities, private equities, private credit, and derivatives. This approach ensures resilience through economic cycles and technological shifts, including the anticipated impact of AGI. Unlike typical blockchain foundations that focus narrowly on in-house ventures for niche technologies, Open Libra encourages Sub-DAOs to seek the best global opportunities within their mandate. This diversification maximizes returns while aligning with the mission of creating durable, independent capital that transcends regimes, cycles, and lifespans."
+      },
+      {
+        "id": "bots_exploits_policy",
+        "question": "What's your policy on bots and exploits?",
+        "answer": "Open games are hard. There will be exploits, deception, and automated attacks. We experience these regularly as part of any open system. We use in-house fraud detection tools: Scorpion's Claw, for a zero tolerance approach. If you steal from the commons you should expect a steady escalation from social sanctions, code, hard forks, and lawsuits. Read more in 'Code is Legislation'"
+      }
+    ]
+  }
+}

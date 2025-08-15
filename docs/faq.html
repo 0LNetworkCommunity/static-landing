@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Open Libra | The Future, Secured</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Poppins', 'sans-serif'],
+                        body: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-red': '#E75A5C',
+                        'brand-cream': '#FAF3E7',
+                        'brand-charcoal': '#4A3B3C',
+                    },
+                },
+            },
+        }
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        .fade-in.show {
+            opacity: 1;
+        }
+
+        .title-uppercase {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col fade-in"
+      x-data="{ navData: {}, faqData: {}, mobileMenuOpen: false, loaded: false, openFaq: null }"
+      x-init="
+        Promise.all([
+          fetch('data/text-content.json').then(response => response.json()),
+          fetch('data/faq-questions.json').then(response => response.json())
+        ]).then(([navResponse, faqResponse]) => {
+          navData = navResponse;
+          faqData = faqResponse;
+          loaded = true;
+          $nextTick(() => $el.classList.add('show'));
+        });
+      "
+      x-cloak>
+
+    <!-- Navigation -->
+    <nav class="p-4 border-b border-opacity-20 border-brand-cream">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-wide font-display">open libra</a>
+
+            <!-- Mobile menu button -->
+            <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 focus:outline-none">
+                <svg x-show="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg x-show="mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+
+            <!-- Desktop navigation -->
+            <div class="hidden md:flex items-center space-x-8 text-sm font-light tracking-wide font-body">
+                <a href="index.html" class="hover:opacity-80">Home</a>
+                <template x-for="item in navData.navigation" :key="item.label">
+                    <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
+                </template>
+                <a href="pledge-explained.html" class="hover:opacity-80">The Core Pledge</a>
+                <a href="faq.html" class="opacity-100 font-medium">FAQ</a>
+                <div class="flex space-x-4 items-center">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-5 h-5 fill-current">
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile navigation menu -->
+        <div x-show="mobileMenuOpen" x-transition class="md:hidden mt-4 pb-4">
+            <div class="flex flex-col space-y-4">
+                <a href="index.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">Home</a>
+                <template x-for="item in navData.navigation" :key="item.label">
+                    <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
+                </template>
+                <a href="pledge-explained.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">The Core Pledge</a>
+                <a href="faq.html" class="text-base font-medium tracking-wide font-body py-2" @click="mobileMenuOpen = false">FAQ</a>
+                <div class="flex space-x-6 items-center pt-4 border-t border-opacity-20 border-brand-cream">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="container mx-auto px-4 py-12 md:py-16">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-wide leading-tight font-display title-uppercase" x-text="faqData.faq?.title || 'Frequently Asked Questions'"></h1>
+                <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto tracking-normal leading-relaxed font-body" x-text="faqData.faq?.subtitle || 'Common Questions About Open Libra'"></p>
+            </div>
+        </section>
+
+        <!-- FAQ Items -->
+        <section class="py-12 md:py-16 border-t border-opacity-20 border-brand-cream bg-brand-charcoal">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto space-y-6">
+
+                    <template x-for="(question, index) in faqData.faq?.questions || []" :key="question.id">
+                        <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                            <button @click="openFaq = openFaq === index ? null : index"
+                                    class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                                <div class="flex justify-between items-center">
+                                    <h3 class="text-xl md:text-2xl font-semibold font-display pr-4" x-text="question.question"></h3>
+                                    <svg :class="{ 'rotate-180': openFaq === index }" class="w-6 h-6 transition-transform duration-200 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                            <div x-show="openFaq === index" x-transition class="px-6 md:px-8 pb-6 md:pb-8">
+                                <p class="font-body font-light leading-relaxed text-sm md:text-base" x-text="question.answer"></p>
+                            </div>
+                        </div>
+                    </template>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-charcoal py-8 md:py-12 border-t border-opacity-20 border-brand-cream">
+        <div class="container mx-auto px-4 text-center">
+            <a href="index.html" class="inline-block mb-6">
+                <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32 mx-auto">
+            </a>
+            <div class="flex justify-center space-x-6">
+                <template x-for="social in data.socialLinks" :key="social.name">
+                    <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                        <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                    </a>
+                </template>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rethink Tokenomics - Open Libra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Poppins', 'sans-serif'],
+                        body: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-red': '#E75A5C',
+                        'brand-cream': '#FAF3E7',
+                        'brand-charcoal': '#4A3B3C',
+                    },
+                },
+            },
+        }
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col"
+      x-data="{ data: {}, mobileMenuOpen: false, loaded: false }"
+      x-init="fetch('data/text-content.json').then(response => response.json()).then(json => { data = json; loaded = true; $nextTick(() => $el.classList.add('show')); })"
+      x-cloak>
+    <!-- Navigation -->
+    <nav class="p-4 border-b border-opacity-20 border-brand-cream">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-wide font-display">open libra</a>
+            <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 focus:outline-none">
+                <svg x-show="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg x-show="mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-light tracking-wide font-body">
+                <a href="index.html" class="hover:opacity-80">Home</a>
+                <template x-for="item in data.navigation" :key="item.label">
+                    <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
+                </template>
+                <a href="pledge-explained.html" class="hover:opacity-80">The Core Pledge</a>
+                <a href="faq.html" class="hover:opacity-80">FAQ</a>
+                <div class="flex space-x-4 items-center">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-5 h-5 fill-current">
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div x-show="mobileMenuOpen" x-transition class="md:hidden mt-4 pb-4">
+            <div class="flex flex-col space-y-4">
+                <a href="index.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">Home</a>
+                <template x-for="item in data.navigation" :key="item.label">
+                    <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
+                </template>
+                <a href="pledge-explained.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">The Core Pledge</a>
+                <a href="faq.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">FAQ</a>
+                <div class="flex space-x-6 items-center pt-4 border-t border-opacity-20 border-brand-cream">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-1 text-brand-cream">
+        <section class="container mx-auto px-4 py-12 md:py-24">
+            <div class="max-w-4xl mx-auto text-center text-brand-cream">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-wide leading-tight font-display title-uppercase">Tokenomics: Rethink What’s Possible</h1>
+                <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto font-body mb-8">
+                    Tokenomics isn’t just numbers—it’s the architecture of trust, resilience, and long-term impact. At Open Libra, we challenge you to see beyond speculation and imagine how tokenomics can build a better future for everyone.
+                </p>
+            </div>
+
+            <!-- Section transitions -->
+            <div class="max-w-4xl mx-auto mt-12 mb-12">
+                <hr class="border-brand-cream border-opacity-30 mb-12">
+            </div>
+
+            <!-- Account & Capital Types -->
+            <div class="max-w-4xl mx-auto account-capital-types">
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 font-display title-uppercase text-center">Account & Capital Types</h2>
+                <div class="tiles" style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;">
+                    <div class="tile" style="background: #FAF3E7; color: #4A3B3C; border-radius: 1rem; box-shadow: 0 2px 8px rgba(231,90,92,0.08); border: 2px solid #E75A5C; padding: 2rem 1.5rem; min-width: 240px; max-width: 320px; flex: 1 1 240px;">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #E75A5C;">User Accounts</h3>
+                        <ul style="margin-left: 1rem;">
+                            <li><b>Unlocked</b>: Fully liquid, transferable without delay.</li>
+                            <li><b>Vesting ("Slow")</b>: Subject to continuous linear release; unreleased balance is non-transferable.</li>
+                        </ul>
+                    </div>
+                    <div class="tile" style="background: #FAF3E7; color: #4A3B3C; border-radius: 1rem; box-shadow: 0 2px 8px rgba(231,90,92,0.08); border: 2px solid #E75A5C; padding: 2rem 1.5rem; min-width: 240px; max-width: 320px; flex: 1 1 240px;">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #E75A5C;">Sub-DAO Endowments</h3>
+                        <p>Capital pools governed by independent Sub-DAOs; funded via direct donations plus protocol matching.</p>
+                    </div>
+                    <div class="tile" style="background: #FAF3E7; color: #4A3B3C; border-radius: 1rem; box-shadow: 0 2px 8px rgba(231,90,92,0.08); border: 2px solid #E75A5C; padding: 2rem 1.5rem; min-width: 240px; max-width: 320px; flex: 1 1 240px;">
+                        <h3 style="font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem; color: #E75A5C;">Matching Fund</h3>
+                        <p>Protocol-controlled pool that amplifies qualified Sub-DAO funding according to transparent rules.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-4xl mx-auto mt-12 mb-12">
+                <hr class="border-brand-cream border-opacity-30 mb-12">
+            </div>
+
+            <!-- Supply & Issuance -->
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 font-display title-uppercase">Supply & Issuance</h2>
+                <ul class="list-disc ml-6 mb-6 font-body">
+                    <li>100% of total supply was <b>freely mined</b> (no ICO, pre-sale, or insider allocation).</li>
+                    <li>Mining is complete; <b>fixed max supply: 100,000,000,000 OL</b>.</li>
+                    <li>No new minting mechanisms exist; long-term scarcity is enforced at the protocol layer.</li>
+                </ul>
+            </div>
+
+            <div class="max-w-4xl mx-auto mt-12 mb-12">
+                <hr class="border-brand-cream border-opacity-30 mb-12">
+            </div>
+
+            <!-- Deflationary Mechanics -->
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 font-display title-uppercase">Deflationary Mechanics</h2>
+                <ul class="list-disc ml-6 mb-6 font-body">
+                    <li>Approximately <b>~5% of total issued OL has been burned</b> since emission ended.</li>
+                    <li>Burns occur on a <b>continuous / daily cadence</b>, introducing persistent downward pressure on liquid supply.</li>
+                    <li>Effect: gradual increase in effective scarcity without discretionary monetary policy.</li>
+                </ul>
+            </div>
+
+            <div class="max-w-4xl mx-auto mt-12 mb-12">
+                <hr class="border-brand-cream border-opacity-30 mb-12">
+            </div>
+
+            <!-- Sub-DAO Ecosystem Flows -->
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 font-display title-uppercase">Sub-DAO Ecosystem Flows</h2>
+                <ul class="list-disc ml-6 mb-6 font-body">
+                    <li><b>Inbound:</b> Direct user donations + Matching Fund disbursements.</li>
+                    <li><b>Outbound:</b> Mission-aligned allocations governed by each Sub-DAO's charter and signer set.</li>
+                    <li><b>Expansion:</b> New Sub-DAOs can launch permissionlessly, enabling horizontal scaling of focused initiatives.</li>
+                </ul>
+            </div>
+
+            <div class="max-w-4xl mx-auto mt-12 mb-12">
+                <hr class="border-brand-cream border-opacity-30 mb-12">
+            </div>
+
+
+
+            <!-- Tokenomics Breakdown Section -->
+            <section class="max-w-4xl mx-auto">
+                <header>
+                    <h1 class="text-4xl md:text-5xl font-extrabold mb-8 font-display title-uppercase text-center">Tokenomics Breakdown</h1>
+                </header>
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-8 mb-8">
+                    <div class="w-full flex flex-col md:flex-row md:space-x-8 items-start mb-8">
+                        <div class="md:w-1/2 w-full">
+                            <table class="w-full text-left border-collapse mb-6">
+                                <thead class="bg-brand-charcoal text-brand-cream">
+                                    <tr>
+                                        <th class="py-2 px-4">Category</th>
+                                           <th class="py-2 px-4" style="text-align: right;">Coins</th>
+                                           <th class="py-2 px-4" style="text-align: right;">% of Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-brand-red text-brand-cream" id="distributionTableBody">
+                                    <tr>
+                                        <td id="total_supply_label">Total Supply</td>
+                                           <td id="total_supply_value" style="text-align: right;">-</td>
+                                           <td id="total_supply_percent" style="text-align: right;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="user_locked_label">User Locked</td>
+                                           <td id="user_locked_value" style="text-align: right;">-</td>
+                                           <td id="user_locked_percent" style="text-align: right;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="sub_daos_label">Sub DAOs</td>
+                                           <td id="sub_daos_value" style="text-align: right;">-</td>
+                                           <td id="sub_daos_percent" style="text-align: right;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="matching_funds_label">Matching Funds</td>
+                                           <td id="matching_funds_value" style="text-align: right;">-</td>
+                                           <td id="matching_funds_percent" style="text-align: right;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="user_unlocked_label">User Unlocked</td>
+                                           <td id="user_unlocked_value" style="text-align: right;">-</td>
+                                           <td id="user_unlocked_percent" style="text-align: right;">-</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="burned_label">Burned</td>
+                                           <td id="burned_value" style="text-align: right;">-</td>
+                                           <td id="burned_percent" style="text-align: right;">-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="text-sm font-light opacity-80 mb-4">Percentages are rounded; totals may not equal 100% due to rounding and dynamic burns.</p>
+                        </div>
+                        <div class="md:w-1/2 w-full flex justify-center items-center">
+                            <canvas id="pieChartCanvas" width="320" height="320"></canvas>
+                        </div>
+                    </div>
+
+                        <div class="max-w-4xl mx-auto mt-12 mb-12">
+                            <hr class="border-brand-cream border-opacity-30 mb-12">
+                        </div>
+
+                        <!-- Live On-Chain Supply Stats -->
+                        <!-- Live stats section removed as requested -->
+                    <div class="flex-1 flex flex-col items-center justify-center">
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-4xl mx-auto mt-12 mb-12">
+                <hr class="border-brand-cream border-opacity-30 mb-12">
+            </div>
+
+            <!-- Governance & Enforcement Layers -->
+
+            <!-- CTA Section -->
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 font-display title-uppercase">Ready to Dive Deeper?</h2>
+                <p class="text-lg md:text-xl font-light opacity-90 mb-8 font-body">Explore the data, challenge your assumptions, and help shape the future of tokenomics. Join the conversation and see how Open Libra is building for generations.</p>
+                <a href="faq.html" class="inline-block px-8 py-3 bg-brand-cream text-brand-red rounded-full text-base md:text-lg font-light font-body hover:opacity-90 transition-opacity duration-300">Read the FAQ</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-brand-charcoal py-8 md:py-12 border-t border-opacity-20 border-brand-cream relative">
+        <div class="container mx-auto px-4 text-center">
+            <a href="index.html" class="inline-block mb-6">
+                <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32 mx-auto">
+            </a>
+            <div class="flex justify-center space-x-6">
+                <template x-for="social in data.socialLinks" :key="social.name">
+                    <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                        <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                    </a>
+                </template>
+            </div>
+        </div>
+        <!-- Pi Easter Egg -->
+        <div id="pi-easter-egg" style="position: absolute; bottom: 12px; right: 24px; cursor: pointer; color: #fca5a5; font-size: 2.5rem; opacity: 0.7; z-index: 50;" title="π">
+            &pi;
+        </div>
+        <div id="pi-modal" style="display:none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1000;">
+            <div style="position: absolute; bottom: 32px; right: 32px; background: #fff; color: #222; max-width: 90vw; max-height: 70vh; overflow-y: auto; border-radius: 1rem; box-shadow: 0 4px 32px rgba(0,0,0,0.2); padding: 2rem;">
+                <button id="pi-modal-close" style="position: absolute; top: 1rem; right: 1rem; background: none; border: none; font-size: 1.5rem; color: #E75A5C; cursor: pointer;">&times;</button>
+                <pre id="pi-modal-content" style="white-space: pre-wrap; font-size: 1rem; margin-top: 2rem;"></pre>
+            </div>
+        </div>
+</body>
+    <script src="js/tokenomics.js"></script>
+</html>

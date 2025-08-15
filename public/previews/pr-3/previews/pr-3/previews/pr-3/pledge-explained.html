@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Core Pledge Explained - Open Libra | The Future, Secured</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Poppins', 'sans-serif'],
+                        body: ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-red': '#E75A5C',
+                        'brand-cream': '#FAF3E7',
+                        'brand-charcoal': '#4A3B3C',
+                    },
+                },
+            },
+        }
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        .fade-in.show {
+            opacity: 1;
+        }
+
+        .title-uppercase {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col fade-in"
+      x-data="{ data: {}, mobileMenuOpen: false, loaded: false, openFaq: null }"
+      x-init="fetch('data/text-content.json').then(response => response.json()).then(json => { data = json; loaded = true; $nextTick(() => $el.classList.add('show')); })"
+      x-cloak>
+
+    <!-- Navigation -->
+    <nav class="p-4 border-b border-opacity-20 border-brand-cream">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-wide font-display">open libra</a>
+
+            <!-- Mobile menu button -->
+            <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 focus:outline-none">
+                <svg x-show="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg x-show="mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+
+            <!-- Desktop navigation -->
+            <div class="hidden md:flex items-center space-x-8 text-sm font-light tracking-wide font-body">
+                <a href="index.html" class="hover:opacity-80">Home</a>
+                <template x-for="item in data.navigation" :key="item.label">
+                    <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
+                </template>
+                <a href="pledge-explained.html" class="opacity-100 font-medium">The Core Pledge</a>
+                <div class="flex space-x-4 items-center">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-5 h-5 fill-current">
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile navigation menu -->
+        <div x-show="mobileMenuOpen" x-transition class="md:hidden mt-4 pb-4">
+            <div class="flex flex-col space-y-4">
+                <a href="index.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false">Home</a>
+                <template x-for="item in data.navigation" :key="item.label">
+                    <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
+                </template>
+                <a href="pledge-explained.html" class="text-base font-medium tracking-wide font-body py-2" @click="mobileMenuOpen = false">The Core Pledge</a>
+                <div class="flex space-x-6 items-center pt-4 border-t border-opacity-20 border-brand-cream">
+                    <template x-for="social in data.socialLinks" :key="social.name">
+                        <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                            <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="container mx-auto px-4 py-12 md:py-16">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-wide leading-tight font-display title-uppercase">The Core Pledge Explained</h1>
+                <p class="text-lg md:text-xl font-light opacity-90 max-w-3xl mx-auto tracking-normal leading-relaxed font-body">Understanding Open Libra's Foundation</p>
+            </div>
+        </section>
+
+        <!-- Core Pledge Section -->
+        <section class="py-12 md:py-16 border-t border-opacity-20 border-brand-cream">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="text-center mb-12 md:mb-16">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-8 font-display title-uppercase">The Core Pledge</h2>
+                        <blockquote class="text-xl md:text-2xl font-light leading-relaxed font-display italic border-l-4 border-brand-cream pl-6 md:pl-8 text-left max-w-3xl mx-auto">
+                            We Took Libra from Facebook<br>
+                            To Fulfill the Promise of Good Capital<br>
+                            By Producing the Best Open Asset<br>
+                            Which is Fiercely Independent,<br>
+                            Uses Modern Tools,<br>
+                            Has Plans Measured in Centuries<br>
+                            To Become an Unstoppable Force In Society
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Items -->
+        <section class="py-12 md:py-16 border-t border-opacity-20 border-brand-cream bg-brand-charcoal">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto space-y-6">
+
+                    <!-- FAQ Item 1 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 1 ? null : 1"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">1. Yes, We Took It</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 1 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 1" x-transition class="px-6 md:px-8 pb-6 md:pb-8">
+                            <p class="font-semibold font-body mb-4">What do you mean "We hard-forked Facebook out of Libra."?</p>
+                            <p class="font-body font-light leading-relaxed mb-4">Facebook spent hundreds of millions of dollars to create a clean-slate extreme high performance blockchain. Much of the public worried about what their stable coin would mean for the future of finance. I, on the other hand, saw that there was an opportunity to steal it back from them, to create a perpetual asset which, like bitcoin, had a much longer-term view.</p>
+                            <p class="font-body font-light leading-relaxed">The starting point was: if we don't need to spend hundreds of millions on technical R&D, how do we design the best asset for all generations to come?</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 2 ? null : 2"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">2. To Fulfill the Promise of Good Capital</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 2 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 2" x-transition class="px-6 md:px-8 pb-6 md:pb-8 space-y-4">
+                            <div>
+                                <p class="font-semibold font-body mb-2">What does "good capital" mean?</p>
+                                <p class="font-body font-light leading-relaxed mb-4">Capital is anything physical or immaterial that provides value to the owner. One of the fascinating features of Bitcoin when invented was that an immaterial right was not a "title" granted by someone else and later revoked. "Your keys, your coins" is an improvement on intangible capital.</p>
+                                <p class="font-body font-light leading-relaxed mb-4">To be good capital you need to try harder: create assets that are not securities and place them in environments where people want to produce rent in abundance. A car is not a security; a car in the desert produces no rent. A car in a city easily produces rent.</p>
+                                <p class="font-body font-light leading-relaxed">The crypto industry could try harder to create good capital, but their current recipe seems to work fine for near-sighted goals. Here at LIBRA, I think it's best just to move on and focus on launching a new industry: Open Assets.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 3 ? null : 3"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">3. By Producing the Best Open Asset</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 3 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 3" x-transition class="px-6 md:px-8 pb-6 md:pb-8 space-y-4">
+                            <div>
+                                <p class="font-semibold font-body mb-2">What is an "Open Asset"?</p>
+                                <p class="font-body font-light leading-relaxed mb-4">It's the thing that comes after crypto. LIBRA is an accessible and perpetual digital property. It is carefully designed for its purpose: capital. Prosperity comes from people saving and planning for transformation.</p>
+                                <p class="font-semibold font-body mb-2">The entire LIBRA supply has already been produced, and remarkably our users saved, pledged, or donated 95% of their assets for the future.</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold font-body mb-2">What do you mean "pledged to the future"?</p>
+                                <p class="font-body font-light leading-relaxed mb-4">At the end of bootstrapping (V7), between slow wallets, infra escrow pledge, and different donor-directed accounts, the network had 95% of the capital locked for the future. Bootstrapping was slow, nearly 3 years of mining. At V7 upgrade, approximately 5% LIBRA was circulating unrestricted.</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold font-body mb-2">What do you mean by "government proof"?</p>
+                                <p class="font-body font-light leading-relaxed">A free mined asset that never raised capital is not a philosophical question; it's a commercial opportunity. If you want to take your asset mainstream it has to be safe and reputable. Safe: If no one ever needs to look over their shoulder at governments, then you can begin gaining the trust of the 95% who think anything related to blockchain is a scam.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 4 ? null : 4"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">4. Which is Fiercely Independent</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 4 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 4" x-transition class="px-6 md:px-8 pb-6 md:pb-8">
+                            <p class="font-body font-light leading-relaxed mb-4">We make correct choices because we don't owe anything to anyone.</p>
+                            <ul class="font-body font-light space-y-2">
+                                <li><strong>Government proof:</strong> every coin was mined and no money ever raised.</li>
+                                <li><strong>No Labs or Foundation:</strong> yes to moral authority and meritocracy.</li>
+                                <li><strong>So long, Crypto industry:</strong> we'll play games the world wants to play.</li>
+                                <li><strong>No thanks, VCs:</strong> we have no rush, and infinite possibilities.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 5 ? null : 5"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">5. Uses Modern Tools</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 5 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 5" x-transition class="px-6 md:px-8 pb-6 md:pb-8">
+                            <p class="font-body font-light leading-relaxed">Having our own Layer-1 blockchain ensures LIBRA's freedom. We've been running high-performance Diem and Move networks since 2019. The chain is meant to have all the smart contracts anyone would need to use, save, plan with LIBRA, but none of the nonsense to distract us. Think LIBRA, not Blockchain.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 6 ? null : 6"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">6. Has Plans Measured in Centuries</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 6 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 6" x-transition class="px-6 md:px-8 pb-6 md:pb-8 space-y-4">
+                            <p class="font-body font-light leading-relaxed mb-4">We play a long game that few have patience for. There is a desert to cross, though the prize is worth the sacrifice.</p>
+                            <div>
+                                <p class="font-semibold font-body mb-2">You surely don't mean "measured in centuries"?</p>
+                                <p class="font-body font-light leading-relaxed mb-4">Yes, of course we do. There are plenty of types of capital that last generations: buildings, land titles, financial firms, bonds. There are existing government bonds that have been paying out continuously for 400 years. But one thing nearly never does: technologies, and technology companies.</p>
+                                <p class="font-body font-light leading-relaxed">The thing that outlives technology is content. And financial content is simply another word for assets. To me, the most compelling thing about the assets on blockchain is an overlooked fundamental property: their risk of disappearing is very low. They don't die like companies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="border border-opacity-30 border-brand-cream rounded-lg">
+                        <button @click="openFaq = openFaq === 7 ? null : 7"
+                                class="w-full text-left p-6 md:p-8 focus:outline-none hover:bg-opacity-5 hover:bg-brand-cream transition-all duration-200">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-xl md:text-2xl font-semibold font-display pr-4">7. To Become an Unstoppable Force</h3>
+                                <svg :class="{ 'rotate-180': openFaq === 7 }" class="w-6 h-6 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                        </button>
+                        <div x-show="openFaq === 7" x-transition class="px-6 md:px-8 pb-6 md:pb-8">
+                            <p class="font-body font-light leading-relaxed">All future generations should have dependable capital for interventions in society. Having power in society requires capital. In the next century, I expect this to continue being true, if not more so.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-charcoal py-8 md:py-12 border-t border-opacity-20 border-brand-cream">
+        <div class="container mx-auto px-4 text-center">
+            <a href="index.html" class="inline-block mb-6">
+                <img src="assets/logo.svg" alt="Open Libra Logo" class="w-24 h-24 md:w-32 md:h-32 mx-auto">
+            </a>
+            <div class="flex justify-center space-x-6">
+                <template x-for="social in data.socialLinks" :key="social.name">
+                    <a :href="social.url" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+                        <img :src="social.icon" :alt="social.name" class="w-6 h-6 fill-current">
+                    </a>
+                </template>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
