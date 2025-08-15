@@ -20,3 +20,6 @@ To deploy to GitHub Pages:
 2. Go to repository Settings > Pages
 3. Select the main branch as the source
 4. Your site will be published at `https://[username].github.io/[repository-name]`
+
+# Agents
+Agents, please begin reading instructions in ./docs/agent, then proceed to understand the content in ./docs/knowledge_base.
