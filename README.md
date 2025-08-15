@@ -21,5 +21,7 @@ To deploy to GitHub Pages:
 3. Select the main branch as the source
 4. Your site will be published at `https://[username].github.io/[repository-name]`
 
+# Github pages
+Github pages requires that the index.html is server under root or ./docs/. We chose ./docs for this config.
 # Agents
-AI agents, please begin reading context in ./docs/
+AI agents, please begin reading context in ./knowledge_base/
