@@ -6,34 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Open Libra — The Future, Secured</title>
   <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    // Suppress production warning for static sites
-    if (window.tailwind && window.tailwind.config) {
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              display: ['Poppins', 'sans-serif'],
-              body: ['Roboto', 'sans-serif'],
-            },
-            colors: {
-              'brand-red': '#E75A5C',
-              'brand-cream': '#FAF3E7',
-              'brand-charcoal': '#4A3B3C',
-            },
-          },
-        },
-      }
-    }
-  </script>
+  <script src="js/tailwind-config.js"></script>
+  <script defer src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+  <script defer src="js/infinity-loop-three.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <script>
-    document.addEventListener('alpine:init', () => {
-      console.log('Alpine.js initialized successfully');
-    });
-  </script>
   <style>
     [x-cloak] {
       display: none !important;
@@ -55,45 +34,11 @@
   </style>
 </head>
 
-<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col justify-between fade-in" x-data="{ data: {}, mobileMenuOpen: false, loaded: false }"
-  x-init="
-    console.log('Fetching content...');
-    fetch('data/text-content.json')
-      .then(response => { 
-        if (!response.ok) throw new Error('Failed to load content'); 
-        return response.json(); 
-      })
-      .then(json => { 
-        console.log('Content loaded successfully'); 
-        data = json; 
-        loaded = true; 
-        $nextTick(() => $el.classList.add('show')); 
-      })
-      .catch(error => { 
-        console.error('Error loading content:', error); 
-        data = { 
-          brand: { name: 'Open Libra' }, 
-          navigation: [], 
-          hero: { title: 'Loading...', subtitle: '' }, 
-          buttons: { faq: 'FAQ' }, 
-          socialLinks: [],
-          about: {},
-          foundation: {},
-          inventions: {},
-          example: {},
-          governance: {},
-          documentation: {},
-          cta: {},
-          links: {}
-        }; 
-        loaded = true; 
-        $nextTick(() => $el.classList.add('show')); 
-      })
-  " x-cloak>
+<body class="min-h-screen bg-brand-red text-brand-cream flex flex-col justify-between fade-in" x-data="app" x-cloak>
   <!-- Navigation -->
   <nav class="p-4 border-b border-opacity-20 border-brand-cream">
     <div class="container mx-auto flex justify-between items-center">
-      <a href="#" class="text-xl md:text-2xl font-semibold tracking-wide font-display" x-text="data.brand?.name || 'Open Libra'"></a>
+      <a href="#" class="text-xl md:text-2xl font-semibold tracking-wide font-display uppercase" x-text="data.brand?.name || 'Open Libra'"></a>
       <!-- Mobile menu button -->
       <button @click="mobileMenuOpen = !mobileMenuOpen" class="md:hidden p-2 focus:outline-none">
         <svg x-show="!mobileMenuOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -135,11 +80,15 @@
       </div>
     </div>
   </nav>
+
+   <!-- Particle Canvas -->
+  <canvas id="particle-canvas" class="absolute inset-0 w-full h-full pointer-events-none opacity-40"></canvas>
   <!-- Hero Section -->
-  <section class="container mx-auto px-4 py-12 md:py-24">
-    <div class="max-w-5xl mx-auto">
-      <h1 class="text-4xl md:text-7xl font-bold mb-6 tracking-wide leading-tight font-display" x-text="data.hero?.title || 'Loading...'"></h1>
-      <p class="uppercase md:text-xl font-light opacity-90 max-w-3xl tracking-normal leading-relaxed font-body mb-8 md:mb-12" x-text="data.hero?.subtitle || ''"></p>
+  <section class="container mx-auto px-4 py-12 md:py-24 relative overflow-hidden">
+
+    <div class="max-w-5xl mx-auto relative z-10">
+      <h1 class="text-4xl md:text-7xl font-bold mb-6 tracking-wide opacity-95 leading-tight font-display" x-text="data.hero?.title || 'Loading...'"></h1>
+      <p class="text-2xl md:text-6xl font-light opacity-95 max-w-3xl tracking-normal leading-relaxed font-serif mb-8 md:mb-12 italic" x-text="data.hero?.subtitle || ''"></p>
       <div class="flex flex-col gap-4 items-stretch md:items-start md:flex-row">
         <a href="faq.html" class="inline-block px-8 md:px-10 py-3 border border-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:bg-brand-cream hover:text-brand-red transition-colors duration-300 text-center" x-text="data.buttons?.faq || 'FAQ'"></a>
       </div>
@@ -207,9 +156,7 @@
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display title-uppercase">Rethink Tokenomics</h2>
-        <p class="text-lg md:text-xl font-light opacity-90 mb-8 md:mb-12 font-body">
-          Open Libra is the only blockchain with 100% freely mined supply and 80% dedicated to long-term investment—no insiders, no pre-sale.<br>
-          We design tokenomics for real economics and perpetual capital, not speculation.
+        <p class="text-lg md:text-xl font-light opacity-90 mb-8 md:mb-12 font-body"> Open Libra is the only blockchain with 100% freely mined supply and 80% dedicated to long-term investment—no insiders, no pre-sale.<br> We design tokenomics for real economics and perpetual capital, not speculation.
         </p>
         <a href="tokenomics.html" class="inline-block px-8 md:px-10 py-3 bg-brand-red text-brand-cream rounded-full text-base md:text-lg font-light tracking-wide font-body hover:opacity-90 transition-opacity duration-300 text-center"> Learn More About Tokenomics </a>
       </div>

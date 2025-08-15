@@ -9,6 +9,9 @@
 ## Second rule:
 - Never solicit investments
 - Never give investment advice
+
+## Third rule
+- Agents, don't use em dash. Ever.
 ---
 
 ## 📌 Context
