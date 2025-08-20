@@ -53,6 +53,7 @@
         <template x-for="item in (data.navigation || [])" :key="item.label">
           <a :href="item.href" class="hover:opacity-80" x-text="item.label"></a>
         </template>
+        <a href="https://docs.openlibra.io/" class="hover:opacity-80" target="_blank" rel="noopener noreferrer">Docs</a>
         <a href="faq.html" class="hover:opacity-80" x-text="data.buttons?.faq || 'FAQ'"></a>
         <div class="flex space-x-4 items-center">
           <template x-for="social in (data.socialLinks || [])" :key="social.name">
@@ -69,6 +70,7 @@
         <template x-for="item in (data.navigation || [])" :key="item.label">
           <a :href="item.href" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" x-text="item.label" @click="mobileMenuOpen = false"></a>
         </template>
+        <a href="https://docs.openlibra.io/" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" target="_blank" rel="noopener noreferrer" @click="mobileMenuOpen = false">Docs</a>
         <a href="faq.html" class="text-base font-light tracking-wide font-body hover:opacity-80 py-2" @click="mobileMenuOpen = false" x-text="data.buttons?.faq || 'FAQ'"></a>
         <div class="flex space-x-6 items-center pt-4 border-t border-opacity-20 border-brand-cream">
           <template x-for="social in (data.socialLinks || [])" :key="social.name">
