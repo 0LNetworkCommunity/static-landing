@@ -132,12 +132,8 @@
   "description": "Philanthropic institutions already operate on-chain endowments with Open Libra. When you participate, you are compounding toward broad, measurable public benefit.",
     "buttons": [
       {
-        "label": "View Governance",
-        "href": "#governance"
-      },
-      {
-        "label": "Read Documentation",
-        "href": "#documentation"
+        "label": "WHO WE ARE",
+        "href": "https://docs.openlibra.io/blog/libra-liberated"
       }
     ]
   },
